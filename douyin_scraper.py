@@ -1,52 +1,73 @@
 """
-抖音热榜抓取模块
+热榜抓取模块（支持配置化）
 """
 import requests
 import json
 import logging
 from datetime import datetime
 from typing import List, Dict, Optional
+from config_loader import ConfigLoader
 
 logger = logging.getLogger(__name__)
 
 
 class DouyinScraper:
-    """抖音热榜抓取器"""
+    """热榜抓取器（支持多数据源和内容板块）"""
 
-    def __init__(self):
-        """初始化抓取器"""
-        # 多个备用 API 地址（使用可用的抖音 API）
-        self.api_urls = [
-            "https://aweme.snssdk.com/aweme/v1/hot/search/list/",  # 热搜榜（主要）
-            "https://www.iesdouyin.com/web/api/v2/hotsearch/billboard/word/",  # 旧版 API
-            "https://aweme.snssdk.com/aweme/v1/hotsearch/star/billboard/",  # 明星榜（备用）
-            "https://aweme.snssdk.com/aweme/v1/chart/music/list/",  # 音乐榜（备用）
-        ]
+    def __init__(self, config_loader: Optional[ConfigLoader] = None):
+        """
+        初始化抓取器
 
-        self.headers = {
+        Args:
+            config_loader: 配置加载器，如果为 None 则使用默认配置
+        """
+        # 加载配置
+        self.config_loader = config_loader or ConfigLoader()
+        scraper_config = self.config_loader.get_scraper_config()
+
+        # 获取 API URLs
+        self.api_urls = self.config_loader.get_all_api_urls()
+
+        # 如果没有配置 API，使用默认的
+        if not self.api_urls:
+            self.api_urls = [
+                "https://aweme.snssdk.com/aweme/v1/hot/search/list/",
+                "https://www.iesdouyin.com/web/api/v2/hotsearch/billboard/word/",
+                "https://aweme.snssdk.com/aweme/v1/hotsearch/star/billboard/",
+                "https://aweme.snssdk.com/aweme/v1/chart/music/list/",
+            ]
+
+        # 请求头
+        self.headers = scraper_config.get('headers', {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Referer': 'https://www.douyin.com/',
             'Accept': 'application/json',
             'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
             'Cookie': '',
-        }
+        })
+
+        # 超时时间
+        self.timeout = scraper_config.get('timeout', 10)
 
         # 标记最后一次抓取是否使用了测试数据
         self.is_using_test_data = False
         # 记录成功的 API 来源
         self.last_successful_api = None
+        # 记录当前使用的数据源名称
+        self.current_source_name = "未知"
 
-    def fetch_hot_list(self, limit: int = 20) -> Optional[List[Dict]]:
+    def fetch_hot_list(self, limit: int = 20, category: str = 'all') -> Optional[List[Dict]]:
         """
-        抓取抖音热榜
+        抓取热榜
 
         Args:
             limit: 返回的热榜数量，默认20条
+            category: 内容板块，默认 'all'（综合）
 
         Returns:
             热榜列表，每个元素包含 rank, word, hot_value 等信息
         """
-        logger.info("开始抓取抖音热榜...")
+        logger.info(f"开始抓取热榜（板块: {category}, 数量: {limit}）...")
 
         # 尝试多个 API
         for api_url in self.api_urls:
@@ -56,7 +77,7 @@ class DouyinScraper:
                 response = requests.get(
                     api_url,
                     headers=self.headers,
-                    timeout=10
+                    timeout=self.timeout
                 )
 
                 logger.info(f"响应状态码: {response.status_code}")
@@ -104,7 +125,19 @@ class DouyinScraper:
                         }
                         hot_list.append(hot_item)
 
-                    logger.info(f"✅ 成功抓取 {len(hot_list)} 条热榜数据（来源：{api_url}）")
+                    # 识别数据源
+                    self._identify_source(api_url)
+
+                    logger.info(f"✅ 成功抓取 {len(hot_list)} 条热榜数据（来源：{self.current_source_name}）")
+
+                    # 根据板块过滤
+                    if category and category != 'all':
+                        hot_list = self.config_loader.filter_by_category(hot_list, category)
+                        logger.info(f"板块过滤后: {len(hot_list)} 条")
+
+                    # 限制数量
+                    hot_list = hot_list[:limit]
+
                     self.is_using_test_data = False
                     self.last_successful_api = api_url
                     return hot_list
@@ -123,6 +156,32 @@ class DouyinScraper:
         logger.warning("所有 API 都无法获取数据，返回测试数据")
         self.is_using_test_data = True
         return self._get_test_data(limit)
+
+    def _identify_source(self, api_url: str):
+        """
+        识别数据源名称
+
+        Args:
+            api_url: API URL
+        """
+        # 从配置中查找对应的数据源
+        data_sources = self.config_loader.config.get('data_sources', {})
+        for source_key, source_config in data_sources.items():
+            apis = source_config.get('apis', [])
+            for api in apis:
+                if api.get('url') == api_url:
+                    self.current_source_name = source_config.get('name', source_key)
+                    return
+
+        # 如果没找到，根据 URL 猜测
+        if 'douyin' in api_url or 'aweme' in api_url:
+            self.current_source_name = "抖音"
+        elif 'weibo' in api_url:
+            self.current_source_name = "微博"
+        elif 'zhihu' in api_url:
+            self.current_source_name = "知乎"
+        else:
+            self.current_source_name = "未知来源"
 
     def _parse_response(self, data: dict) -> Optional[List[Dict]]:
         """
@@ -230,13 +289,14 @@ class DouyinScraper:
 
         return hot_list
 
-    def format_hot_list_text(self, hot_list: List[Dict], is_test_data: bool = False) -> str:
+    def format_hot_list_text(self, hot_list: List[Dict], is_test_data: bool = False, category: str = 'all') -> str:
         """
         将热榜数据格式化为文本
 
         Args:
             hot_list: 热榜列表
             is_test_data: 是否为测试数据
+            category: 内容板块
 
         Returns:
             格式化后的文本
@@ -245,34 +305,39 @@ class DouyinScraper:
             return "暂无热榜数据"
 
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        display_config = self.config_loader.get_display_config()
+
+        # 获取板块名称
+        category_name = self.config_loader.get_category_name(category) if category != 'all' else '综合热榜'
 
         if is_test_data:
             lines = [
-                f"⚠️ 抖音热榜服务异常 - 测试数据 ({timestamp})",
+                f"⚠️ 热榜服务异常 - 测试数据 ({timestamp})",
                 "",
-                "说明：当前抖音热榜 API 无法访问，以下为测试数据。",
+                "说明：当前热榜 API 无法访问，以下为测试数据。",
                 "可能原因：网络限制、API 地址变更、需要登录态等。",
                 ""
             ]
         else:
-            lines = [f"📊 抖音热榜 Top{len(hot_list)} ({timestamp})\n"]
+            # 使用配置的标题格式
+            title_format = display_config.get('title_format', '📊 {source} - {category} Top{count}')
+            title = title_format.format(
+                source=self.current_source_name,
+                category=category_name,
+                count=len(hot_list),
+                time=timestamp
+            )
+            lines = [f"{title} ({timestamp})\n"]
+
+        # 获取显示配置
+        show_hot_value = display_config.get('show_hot_value', True)
+        show_label = display_config.get('show_label', True)
 
         for item in hot_list:
             rank = item['rank']
             word = item['word']
             hot_value = item['hot_value']
             label = item.get('label', '')
-
-            # 格式化热度值
-            if hot_value >= 100000000:
-                hot_str = f"{hot_value / 100000000:.1f}亿"
-            elif hot_value >= 10000:
-                hot_str = f"{hot_value / 10000:.1f}万"
-            else:
-                hot_str = str(hot_value)
-
-            # 添加标签
-            label_str = f" [{label}]" if label else ""
 
             # 添加排名图标
             if rank == 1:
@@ -284,7 +349,22 @@ class DouyinScraper:
             else:
                 icon = f"{rank}."
 
-            lines.append(f"{icon} {word}{label_str} 🔥{hot_str}")
+            # 格式化热度值
+            hot_str = ""
+            if show_hot_value and hot_value:
+                if hot_value >= 100000000:
+                    hot_str = f" 🔥{hot_value / 100000000:.1f}亿"
+                elif hot_value >= 10000:
+                    hot_str = f" 🔥{hot_value / 10000:.1f}万"
+                else:
+                    hot_str = f" 🔥{hot_value}"
+
+            # 添加标签
+            label_str = ""
+            if show_label and label:
+                label_str = f" [{label}]"
+
+            lines.append(f"{icon} {word}{label_str}{hot_str}")
 
         return "\n".join(lines)
 

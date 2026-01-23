@@ -121,12 +121,13 @@ class FeishuNotifier:
             logger.error(f"发送消息时发生错误: {e}")
             return False
 
-    def send_interactive_message(self, hot_list: list) -> bool:
+    def send_interactive_message(self, hot_list: list, source_name: str = "热榜") -> bool:
         """
         发送交互式卡片消息到飞书群（更美观的热榜展示）
 
         Args:
             hot_list: 热榜数据列表
+            source_name: 数据源名称
 
         Returns:
             发送是否成功
@@ -192,13 +193,16 @@ class FeishuNotifier:
                         "tag": "hr"
                     })
 
+            # 计算实际展示数量
+            display_count = min(len(hot_list), 10)
+
             payload = {
                 "msg_type": "interactive",
                 "card": {
                     "header": {
                         "title": {
                             "tag": "plain_text",
-                            "content": "📊 抖音热榜 Top10"
+                            "content": f"📊 {source_name} Top{display_count}"
                         },
                         "template": "blue"
                     },

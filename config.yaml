@@ -1,0 +1,163 @@
+# 热榜抓取配置文件
+# 支持自定义数据源和内容板块
+
+# ============================================
+# 数据源配置
+# ============================================
+# 可以启用多个数据源，程序会依次尝试
+
+data_sources:
+  # 抖音热榜
+  douyin:
+    enabled: true  # 是否启用
+    name: "抖音热榜"
+    apis:
+      - url: "https://aweme.snssdk.com/aweme/v1/hot/search/list/"
+        type: "hot_search"
+        description: "综合热搜榜"
+      - url: "https://www.iesdouyin.com/web/api/v2/hotsearch/billboard/word/"
+        type: "billboard"
+        description: "热词榜"
+      - url: "https://aweme.snssdk.com/aweme/v1/hotsearch/star/billboard/"
+        type: "star"
+        description: "明星榜"
+      - url: "https://aweme.snssdk.com/aweme/v1/chart/music/list/"
+        type: "music"
+        description: "音乐榜"
+
+  # 微博热搜（备用数据源）
+  weibo:
+    enabled: false  # 默认禁用，可以启用
+    name: "微博热搜"
+    apis:
+      - url: "https://weibo.com/ajax/side/hotSearch"
+        type: "hot_search"
+        description: "综合热搜"
+
+  # 知乎热榜（备用数据源）
+  zhihu:
+    enabled: false
+    name: "知乎热榜"
+    apis:
+      - url: "https://www.zhihu.com/api/v4/creators/rank/hot"
+        type: "hot"
+        description: "热榜"
+
+# ============================================
+# 内容板块配置
+# ============================================
+# 根据关键词过滤不同的内容板块
+
+content_categories:
+  # 综合板块（默认，不过滤）
+  all:
+    enabled: true
+    name: "综合热榜"
+    keywords: []  # 空表示不过滤
+    description: "所有热门内容"
+
+  # 新能源汽车板块
+  new_energy_vehicle:
+    enabled: false  # 可以在 .env 中启用
+    name: "新能源汽车"
+    keywords:
+      - "新能源"
+      - "电动车"
+      - "特斯拉"
+      - "比亚迪"
+      - "蔚来"
+      - "理想"
+      - "小鹏"
+      - "问界"
+      - "充电桩"
+      - "电池"
+      - "续航"
+      - "自动驾驶"
+    description: "新能源汽车相关热点"
+
+  # 娱乐板块
+  entertainment:
+    enabled: false
+    name: "娱乐八卦"
+    keywords:
+      - "电影"
+      - "电视剧"
+      - "明星"
+      - "综艺"
+      - "音乐"
+      - "演唱会"
+      - "偶像"
+      - "娱乐"
+      - "八卦"
+      - "影视"
+    description: "娱乐圈热点"
+
+  # 科技板块
+  technology:
+    enabled: false
+    name: "科技资讯"
+    keywords:
+      - "科技"
+      - "AI"
+      - "人工智能"
+      - "手机"
+      - "电脑"
+      - "芯片"
+      - "5G"
+      - "苹果"
+      - "华为"
+      - "小米"
+      - "互联网"
+      - "APP"
+    description: "科技行业热点"
+
+  # 财经板块
+  finance:
+    enabled: false
+    name: "财经资讯"
+    keywords:
+      - "股市"
+      - "基金"
+      - "投资"
+      - "经济"
+      - "金融"
+      - "理财"
+      - "A股"
+      - "港股"
+      - "美股"
+      - "房价"
+      - "GDP"
+    description: "财经金融热点"
+
+# ============================================
+# 抓取配置
+# ============================================
+scraper:
+  # 热榜数量限制
+  limit: 20
+
+  # 超时时间（秒）
+  timeout: 10
+
+  # 请求头配置
+  headers:
+    User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    Referer: "https://www.douyin.com/"
+    Accept: "application/json"
+    Accept-Language: "zh-CN,zh;q=0.9,en;q=0.8"
+
+# ============================================
+# 显示配置
+# ============================================
+display:
+  # 是否显示数据来源
+  show_source: true
+
+  # 是否显示热度值
+  show_hot_value: true
+
+  # 是否显示标签
+  show_label: true
+
+  # 标题格式（支持变量：{category}, {source}, {count}, {time}）
+  title_format: "📊 {source} - {category} Top{count}"

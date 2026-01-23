@@ -9,6 +9,7 @@ from datetime import datetime
 
 from douyin_scraper import DouyinScraper
 from feishu_notifier import FeishuNotifier
+from config_loader import ConfigLoader
 
 
 def setup_logger():
@@ -45,15 +46,22 @@ def main():
     # 获取热榜数量限制（支持从环境变量配置）
     limit = int(os.getenv('HOT_LIST_LIMIT', '20'))
 
+    # 获取启用的板块
+    enabled_categories = os.getenv('ENABLED_CATEGORIES', '').strip()
+    category = enabled_categories.split(',')[0].strip() if enabled_categories else 'all'
+
     try:
+        # 加载配置
+        config_loader = ConfigLoader()
+
         # 创建抓取器和通知器
-        scraper = DouyinScraper()
+        scraper = DouyinScraper(config_loader)
         notifier = FeishuNotifier(webhook_url)
 
-        logger.info(f"📊 开始抓取抖音热榜 (Top {limit})...")
+        logger.info(f"📊 开始抓取热榜 (板块: {category}, Top {limit})...")
 
         # 抓取热榜
-        hot_list = scraper.fetch_hot_list(limit=limit)
+        hot_list = scraper.fetch_hot_list(limit=limit, category=category)
 
         if not hot_list:
             logger.error("❌ 未能获取热榜数据")
@@ -77,15 +85,15 @@ def main():
 
         # 如果使用测试数据，直接发送文本消息
         if scraper.is_using_test_data:
-            text_content = scraper.format_hot_list_text(hot_list, is_test_data=True)
+            text_content = scraper.format_hot_list_text(hot_list, is_test_data=True, category=category)
             success = notifier.send_text_message(text_content)
         else:
             # 优先使用交互式卡片，失败则使用文本消息
-            success = notifier.send_interactive_message(hot_list)
+            success = notifier.send_interactive_message(hot_list, source_name=scraper.current_source_name)
 
             if not success:
                 logger.warning("⚠️  交互式卡片发送失败，尝试使用文本消息")
-                text_content = scraper.format_hot_list_text(hot_list, is_test_data=False)
+                text_content = scraper.format_hot_list_text(hot_list, is_test_data=False, category=category)
                 success = notifier.send_text_message(text_content)
 
         if success:

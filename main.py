@@ -55,14 +55,23 @@ def scrape_and_send():
             notifier.send_text_message("⚠️ 抖音热榜抓取失败，请检查服务状态")
             return
 
-        # 发送到飞书
-        # 优先使用交互式卡片，失败则使用文本消息
-        success = notifier.send_interactive_message(hot_list)
+        # 检查是否使用了测试数据
+        if scraper.is_using_test_data:
+            logger.warning("⚠️  注意：当前使用的是测试数据，抖音 API 可能无法访问")
 
-        if not success:
-            logger.warning("交互式卡片发送失败，尝试使用文本消息")
-            text_content = scraper.format_hot_list_text(hot_list)
+        # 发送到飞书
+        # 如果使用测试数据，直接发送文本消息
+        if scraper.is_using_test_data:
+            text_content = scraper.format_hot_list_text(hot_list, is_test_data=True)
             success = notifier.send_text_message(text_content)
+        else:
+            # 优先使用交互式卡片，失败则使用文本消息
+            success = notifier.send_interactive_message(hot_list)
+
+            if not success:
+                logger.warning("交互式卡片发送失败，尝试使用文本消息")
+                text_content = scraper.format_hot_list_text(hot_list, is_test_data=False)
+                success = notifier.send_text_message(text_content)
 
         if success:
             logger.info("热榜数据发送成功")

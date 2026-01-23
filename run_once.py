@@ -63,6 +63,10 @@ def main():
 
         logger.info(f"✅ 成功抓取 {len(hot_list)} 条热榜数据")
 
+        # 检查是否使用了测试数据
+        if scraper.is_using_test_data:
+            logger.warning("⚠️  注意：当前使用的是测试数据，抖音 API 可能无法访问")
+
         # 打印前3条热榜（用于日志查看）
         logger.info("📌 热榜前3名:")
         for item in hot_list[:3]:
@@ -71,13 +75,18 @@ def main():
         # 发送到飞书
         logger.info("📤 开始发送消息到飞书...")
 
-        # 优先使用交互式卡片，失败则使用文本消息
-        success = notifier.send_interactive_message(hot_list)
-
-        if not success:
-            logger.warning("⚠️  交互式卡片发送失败，尝试使用文本消息")
-            text_content = scraper.format_hot_list_text(hot_list)
+        # 如果使用测试数据，直接发送文本消息
+        if scraper.is_using_test_data:
+            text_content = scraper.format_hot_list_text(hot_list, is_test_data=True)
             success = notifier.send_text_message(text_content)
+        else:
+            # 优先使用交互式卡片，失败则使用文本消息
+            success = notifier.send_interactive_message(hot_list)
+
+            if not success:
+                logger.warning("⚠️  交互式卡片发送失败，尝试使用文本消息")
+                text_content = scraper.format_hot_list_text(hot_list, is_test_data=False)
+                success = notifier.send_text_message(text_content)
 
         if success:
             logger.info("✅ 消息发送成功")

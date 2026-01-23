@@ -35,6 +35,14 @@ class FeishuNotifier:
             发送是否成功
         """
         try:
+            # 检查文本是否为空
+            if not text or text.strip() == "":
+                logger.error("❌ 文本内容为空，拒绝发送")
+                return False
+
+            logger.info(f"📝 准备发送文本消息，长度: {len(text)} 字符")
+            logger.debug(f"消息内容前100字符: {text[:100]}")
+
             payload = {
                 "msg_type": "text",
                 "content": {
@@ -45,7 +53,7 @@ class FeishuNotifier:
             response = requests.post(
                 self.webhook_url,
                 headers=self.headers,
-                data=json.dumps(payload),
+                data=json.dumps(payload, ensure_ascii=False),
                 timeout=10
             )
             response.raise_for_status()
@@ -53,10 +61,11 @@ class FeishuNotifier:
             result = response.json()
 
             if result.get('code') == 0:
-                logger.info("飞书消息发送成功")
+                logger.info("✅ 飞书文本消息发送成功")
                 return True
             else:
-                logger.error(f"飞书消息发送失败: {result.get('msg', '未知错误')}")
+                logger.error(f"❌ 飞书消息发送失败: {result.get('msg', '未知错误')}")
+                logger.error(f"   响应详情: {result}")
                 return False
 
         except requests.RequestException as e:
@@ -135,6 +144,13 @@ class FeishuNotifier:
         try:
             from datetime import datetime
 
+            # 检查热榜数据是否为空
+            if not hot_list or len(hot_list) == 0:
+                logger.error("❌ 热榜数据为空，拒绝发送交互式卡片")
+                return False
+
+            logger.info(f"📊 准备发送交互式卡片，数据源: {source_name}, 数据量: {len(hot_list)}")
+
             # 构建卡片元素
             elements = []
 
@@ -210,10 +226,15 @@ class FeishuNotifier:
                 }
             }
 
+            # 记录payload信息
+            payload_size = len(json.dumps(payload, ensure_ascii=False))
+            logger.info(f"📦 卡片payload大小: {payload_size} 字节, 元素数量: {len(elements)}")
+            logger.debug(f"卡片标题: {payload['card']['header']['title']['content']}")
+
             response = requests.post(
                 self.webhook_url,
                 headers=self.headers,
-                data=json.dumps(payload),
+                data=json.dumps(payload, ensure_ascii=False),
                 timeout=10
             )
             response.raise_for_status()
@@ -221,10 +242,11 @@ class FeishuNotifier:
             result = response.json()
 
             if result.get('code') == 0:
-                logger.info("飞书交互式卡片消息发送成功")
+                logger.info("✅ 飞书交互式卡片消息发送成功")
                 return True
             else:
-                logger.error(f"飞书交互式卡片消息发送失败: {result.get('msg', '未知错误')}")
+                logger.error(f"❌ 飞书交互式卡片消息发送失败: {result.get('msg', '未知错误')}")
+                logger.error(f"   响应详情: {result}")
                 return False
 
         except requests.RequestException as e:

@@ -155,6 +155,7 @@ class DouyinScraper:
         # 如果所有 API 都失败，返回测试数据
         logger.warning("所有 API 都无法获取数据，返回测试数据")
         self.is_using_test_data = True
+        self.current_source_name = "测试数据"
         return self._get_test_data(limit)
 
     def _identify_source(self, api_url: str):

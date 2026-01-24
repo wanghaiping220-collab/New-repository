@@ -1,0 +1,148 @@
+{
+  "hot_list": [
+    {
+      "rank": 1,
+      "word": "春节档电影票房破纪录",
+      "hot_value": 200000000,
+      "label": "热",
+      "event_time": ""
+    },
+    {
+      "rank": 2,
+      "word": "AI 技术新突破",
+      "hot_value": 190000000,
+      "label": "热",
+      "event_time": ""
+    },
+    {
+      "rank": 3,
+      "word": "2024 年经济展望",
+      "hot_value": 180000000,
+      "label": "热",
+      "event_time": ""
+    },
+    {
+      "rank": 4,
+      "word": "健康生活方式分享",
+      "hot_value": 170000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 5,
+      "word": "科技创新引领未来",
+      "hot_value": 160000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 6,
+      "word": "环保出行新方案",
+      "hot_value": 150000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 7,
+      "word": "美食制作小技巧",
+      "hot_value": 140000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 8,
+      "word": "旅游目的地推荐",
+      "hot_value": 130000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 9,
+      "word": "职场技能提升",
+      "hot_value": 120000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 10,
+      "word": "家居装饰灵感",
+      "hot_value": 110000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 11,
+      "word": "运动健身日常",
+      "hot_value": 100000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 12,
+      "word": "读书分享会",
+      "hot_value": 90000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 13,
+      "word": "音乐节精彩瞬间",
+      "hot_value": 80000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 14,
+      "word": "艺术展览回顾",
+      "hot_value": 70000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 15,
+      "word": "时尚穿搭指南",
+      "hot_value": 60000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 16,
+      "word": "宠物日常趣事",
+      "hot_value": 50000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 17,
+      "word": "数码产品测评",
+      "hot_value": 40000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 18,
+      "word": "游戏攻略分享",
+      "hot_value": 30000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 19,
+      "word": "教育资源推荐",
+      "hot_value": 20000000,
+      "label": "",
+      "event_time": ""
+    },
+    {
+      "rank": 20,
+      "word": "公益活动参与",
+      "hot_value": 10000000,
+      "label": "",
+      "event_time": ""
+    }
+  ],
+  "update_time": "2026-01-24 14:33:04",
+  "source": "测试数据",
+  "category": "all",
+  "is_test_data": true
+}

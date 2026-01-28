@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "黄金白银基金宣布暂停申购",
-      "hot_value": 12133082,
+      "hot_value": 11366879,
       "label": 3,
       "event_time": 1769565211
     },
     {
       "rank": 2,
       "word": "这是我家的春碗",
-      "hot_value": 11394256,
+      "hot_value": 11066812,
       "label": 0,
       "event_time": 1769574228
     },
     {
       "rank": 3,
       "word": "冰雪“冷资源”催生“热制造”",
-      "hot_value": 11239716,
+      "hot_value": 11058084,
       "label": 0,
       "event_time": 1769589195
     },
     {
       "rank": 4,
       "word": "斯塔默抵京开启访华行程",
-      "hot_value": 11098800,
+      "hot_value": 10922273,
       "label": 1,
       "event_time": 1769591773
     },
     {
       "rank": 5,
       "word": "印度一飞机坠毁",
-      "hot_value": 10510374,
+      "hot_value": 10363895,
       "label": 3,
       "event_time": 1769574170
     },
     {
       "rank": 6,
-      "word": "全国各地老吃家提前过年了",
-      "hot_value": 10416260,
-      "label": 1,
-      "event_time": 1769576073
-    },
-    {
-      "rank": 7,
       "word": "杨瀚森正负值全队最高",
-      "hot_value": 9274073,
-      "label": 0,
+      "hot_value": 10358600,
+      "label": 3,
       "event_time": 1769567465
     },
     {
+      "rank": 7,
+      "word": "年度穿搭开启新年时髦感",
+      "hot_value": 9259905,
+      "label": 3,
+      "event_time": 1769575367
+    },
+    {
       "rank": 8,
+      "word": "全国各地老吃家提前过年了",
+      "hot_value": 9118703,
+      "label": 0,
+      "event_time": 1769576073
+    },
+    {
+      "rank": 9,
       "word": "这是我看过最猛的刷冰锅了",
-      "hot_value": 9126376,
+      "hot_value": 9112894,
       "label": 0,
       "event_time": 1769565657
     },
     {
-      "rank": 9,
-      "word": "年度穿搭开启新年时髦感",
-      "hot_value": 9123613,
-      "label": 0,
-      "event_time": 1769575367
+      "rank": 10,
+      "word": "距离马年年夜饭还有20天",
+      "hot_value": 9112182,
+      "label": 1,
+      "event_time": 1769580106
     },
     {
-      "rank": 10,
+      "rank": 11,
       "word": "小孩哥吃了多少字帖",
-      "hot_value": 9119371,
+      "hot_value": 9107655,
       "label": 0,
       "event_time": 1769575176
     },
     {
-      "rank": 11,
-      "word": "湖北等地将迎大到暴雪",
-      "hot_value": 9040089,
-      "label": 0,
-      "event_time": 1769564987
-    },
-    {
       "rank": 12,
-      "word": "中国禁止以色列游客入境系谣言",
-      "hot_value": 9021622,
+      "word": "山海经辟谣专栏",
+      "hot_value": 9062092,
       "label": 16,
-      "event_time": 1769557460
+      "event_time": 1769592519
     },
     {
       "rank": 13,
       "word": "中国军号发日语海报",
-      "hot_value": 9015248,
+      "hot_value": 9015571,
       "label": 0,
       "event_time": 1769564960
     },
     {
       "rank": 14,
-      "word": "乌外长：泽连斯基愿与普京会面",
-      "hot_value": 8988474,
-      "label": 0,
-      "event_time": 1769558274
-    },
-    {
-      "rank": 15,
-      "word": "有房企称已不被要求上报三条红线",
-      "hot_value": 8844678,
-      "label": 0,
-      "event_time": 1769583342
-    },
-    {
-      "rank": 16,
-      "word": "媒体：郁亮疑似失联",
-      "hot_value": 8453836,
-      "label": 3,
-      "event_time": 1769580438
-    },
-    {
-      "rank": 17,
       "word": "金建希首案一审宣判",
-      "hot_value": 8334618,
+      "hot_value": 8542106,
       "label": 3,
       "event_time": 1769579895
     },
     {
-      "rank": 18,
+      "rank": 15,
+      "word": "有房企称已不被要求上报三条红线",
+      "hot_value": 8540046,
+      "label": 3,
+      "event_time": 1769583342
+    },
+    {
+      "rank": 16,
       "word": "这居然都是假花",
-      "hot_value": 8322126,
+      "hot_value": 8423760,
       "label": 0,
       "event_time": 1769562380
     },
     {
+      "rank": 17,
+      "word": "法媒：中国不再是“低端作坊”",
+      "hot_value": 8415754,
+      "label": 0,
+      "event_time": 1769571959
+    },
+    {
+      "rank": 18,
+      "word": "湖北等地将迎大到暴雪",
+      "hot_value": 8315012,
+      "label": 0,
+      "event_time": 1769564987
+    },
+    {
       "rank": 19,
-      "word": "国共两党智库论坛将在北京举办",
-      "hot_value": 8307036,
-      "label": 3,
-      "event_time": 1769565934
+      "word": "乌外长：泽连斯基愿与普京会面",
+      "hot_value": 8231969,
+      "label": 0,
+      "event_time": 1769558274
     },
     {
       "rank": 20,
       "word": "印政府：目前仅确诊两例尼帕病例",
-      "hot_value": 8107062,
-      "label": 0,
+      "hot_value": 8066725,
+      "label": 3,
       "event_time": 1769581885
     }
   ],
-  "update_time": "2026-01-28 09:26:52",
+  "update_time": "2026-01-28 10:20:02",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

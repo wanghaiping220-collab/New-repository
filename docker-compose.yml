@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  douyin-scraper:
+    build: .
+    container_name: douyin-hot-scraper
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      # 挂载日志目录
+      - ./logs:/app/logs
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

@@ -2,146 +2,146 @@
   "hot_list": [
     {
       "rank": 1,
-      "word": "黄金白银基金宣布暂停申购",
-      "hot_value": 12121029,
-      "label": 3,
-      "event_time": 1769565211
-    },
-    {
-      "rank": 2,
       "word": "法媒：中国不再是“低端作坊”",
-      "hot_value": 11152304,
+      "hot_value": 12125148,
       "label": 3,
       "event_time": 1769571959
     },
     {
+      "rank": 2,
+      "word": "英国首相称中国已崛起",
+      "hot_value": 11520937,
+      "label": 0,
+      "event_time": 1769584724
+    },
+    {
       "rank": 3,
       "word": "十四五新增减税降费退税超10万亿",
-      "hot_value": 10971036,
+      "hot_value": 11178455,
       "label": 0,
       "event_time": 1769579898
     },
     {
       "rank": 4,
       "word": "斯塔默抵京开启访华行程",
-      "hot_value": 10918528,
+      "hot_value": 11105901,
       "label": 3,
       "event_time": 1769591773
     },
     {
       "rank": 5,
       "word": "印度一飞机坠毁",
-      "hot_value": 10369502,
+      "hot_value": 10483927,
       "label": 3,
       "event_time": 1769574170
     },
     {
       "rank": 6,
       "word": "这是我家的春碗",
-      "hot_value": 10368902,
+      "hot_value": 10444682,
       "label": 3,
       "event_time": 1769574228
     },
     {
       "rank": 7,
-      "word": "这是我看过最猛的刷冰锅了",
-      "hot_value": 9247949,
-      "label": 3,
-      "event_time": 1769565657
-    },
-    {
-      "rank": 8,
       "word": "年度穿搭开启新年时髦感",
-      "hot_value": 9146539,
+      "hot_value": 9296937,
       "label": 3,
       "event_time": 1769575367
     },
     {
-      "rank": 9,
+      "rank": 8,
       "word": "全国各地老吃家提前过年了",
-      "hot_value": 9104666,
+      "hot_value": 9118243,
       "label": 0,
       "event_time": 1769576073
     },
     {
+      "rank": 9,
+      "word": "可回收火箭的三大技术挑战",
+      "hot_value": 9107128,
+      "label": 3,
+      "event_time": 1769567421
+    },
+    {
       "rank": 10,
       "word": "我的春节联欢小会",
-      "hot_value": 9104293,
-      "label": 1,
+      "hot_value": 9103137,
+      "label": 0,
       "event_time": 1769601001
     },
     {
       "rank": 11,
-      "word": "可回收火箭的三大技术挑战",
-      "hot_value": 8999239,
-      "label": 0,
-      "event_time": 1769567421
-    },
-    {
-      "rank": 12,
       "word": "中国军号发日语海报",
-      "hot_value": 8698310,
+      "hot_value": 9099997,
       "label": 3,
       "event_time": 1769564960
     },
     {
+      "rank": 12,
+      "word": "21天春节妆容进阶突击班",
+      "hot_value": 8910646,
+      "label": 8,
+      "event_time": 1769602839
+    },
+    {
       "rank": 13,
       "word": "湖北等地将迎大到暴雪",
-      "hot_value": 8646319,
+      "hot_value": 8680069,
       "label": 0,
       "event_time": 1769564987
     },
     {
       "rank": 14,
-      "word": "英国首相称中国已崛起",
-      "hot_value": 8321053,
-      "label": 0,
-      "event_time": 1769584724
-    },
-    {
-      "rank": 15,
       "word": "金建希首案一审宣判",
-      "hot_value": 8292857,
+      "hot_value": 8360510,
       "label": 3,
       "event_time": 1769579895
     },
     {
-      "rank": 16,
-      "word": "乌外长：泽连斯基愿与普京会面",
-      "hot_value": 8189300,
+      "rank": 15,
+      "word": "31省份2025年GDP出炉",
+      "hot_value": 8352180,
       "label": 3,
-      "event_time": 1769558274
+      "event_time": 1769593062
+    },
+    {
+      "rank": 16,
+      "word": "王子 愿天堂没有病痛",
+      "hot_value": 8154905,
+      "label": 0,
+      "event_time": 1769567336
     },
     {
       "rank": 17,
-      "word": "卡尼：今日美国几无正常可言",
-      "hot_value": 8060112,
+      "word": "黄金白银基金宣布暂停申购",
+      "hot_value": 7868395,
       "label": 0,
-      "event_time": 1769586034
+      "event_time": 1769565211
     },
     {
       "rank": 18,
       "word": "给泡沫转场上难度了",
-      "hot_value": 7834517,
+      "hot_value": 7835072,
       "label": 9,
       "event_time": 1769578425
     },
     {
       "rank": 19,
       "word": "下一站嘉禾望岗",
-      "hot_value": 7833160,
+      "hot_value": 7833509,
       "label": 1,
       "event_time": 1769594998
     },
     {
       "rank": 20,
       "word": "急急如律令脸势舞挑战",
-      "hot_value": 7815837,
+      "hot_value": 7817609,
       "label": 9,
       "event_time": 1769589508
     }
   ],
-  "update_time": "2026-01-28 13:41:33",
+  "update_time": "2026-01-28 14:22:21",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

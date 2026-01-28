@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="实时抖音热榜 - 每小时自动更新">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>📊 抖音热榜实时看板</title>
     <style>
         * {
@@ -277,8 +280,17 @@
             container.innerHTML = '<div class="loading">📡 正在加载热榜数据...</div>';
 
             try {
-                // 添加时间戳避免缓存
-                const response = await fetch(`data/hot_list.json?t=${Date.now()}`);
+                // 添加时间戳和随机数避免缓存
+                const cacheBuster = Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+                const response = await fetch(`data/hot_list.json?v=${cacheBuster}`, {
+                    method: 'GET',
+                    headers: {
+                        'Cache-Control': 'no-cache, no-store, must-revalidate',
+                        'Pragma': 'no-cache',
+                        'Expires': '0'
+                    },
+                    cache: 'no-store'
+                });
 
                 if (!response.ok) {
                     throw new Error('数据加载失败');
@@ -297,8 +309,19 @@
                 }
 
                 // 更新时间显示
+                const now = new Date();
+                const loadTime = now.toLocaleString('zh-CN', {
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                    hour12: false
+                });
                 document.getElementById('updateTime').innerHTML = `
-                    ⏰ 更新时间: ${data.update_time}<br>
+                    ⏰ 数据更新: ${data.update_time}<br>
+                    🔄 加载时间: ${loadTime}<br>
                     📊 数据来源: ${data.source || '抖音热榜'}
                 `;
 

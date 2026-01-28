@@ -2,146 +2,146 @@
   "hot_list": [
     {
       "rank": 1,
-      "word": "法媒：中国不再是“低端作坊”",
-      "hot_value": 12125148,
-      "label": 3,
-      "event_time": 1769571959
-    },
-    {
-      "rank": 2,
       "word": "英国首相称中国已崛起",
-      "hot_value": 11520937,
+      "hot_value": 12117597,
       "label": 0,
       "event_time": 1769584724
     },
     {
+      "rank": 2,
+      "word": "斯塔默抵京开启访华行程",
+      "hot_value": 11971987,
+      "label": 3,
+      "event_time": 1769591773
+    },
+    {
       "rank": 3,
       "word": "十四五新增减税降费退税超10万亿",
-      "hot_value": 11178455,
+      "hot_value": 11890394,
       "label": 0,
       "event_time": 1769579898
     },
     {
       "rank": 4,
-      "word": "斯塔默抵京开启访华行程",
-      "hot_value": 11105901,
-      "label": 3,
-      "event_time": 1769591773
+      "word": "生活放点糖它就是甜的",
+      "hot_value": 11365636,
+      "label": 0,
+      "event_time": 1769584771
     },
     {
       "rank": 5,
-      "word": "印度一飞机坠毁",
-      "hot_value": 10483927,
-      "label": 3,
-      "event_time": 1769574170
+      "word": "法媒：中国不再是“低端作坊”",
+      "hot_value": 10765028,
+      "label": 0,
+      "event_time": 1769571959
     },
     {
       "rank": 6,
       "word": "这是我家的春碗",
-      "hot_value": 10444682,
+      "hot_value": 10559750,
       "label": 3,
       "event_time": 1769574228
     },
     {
       "rank": 7,
       "word": "年度穿搭开启新年时髦感",
-      "hot_value": 9296937,
+      "hot_value": 9445468,
       "label": 3,
       "event_time": 1769575367
     },
     {
       "rank": 8,
-      "word": "全国各地老吃家提前过年了",
-      "hot_value": 9118243,
+      "word": "印度一飞机坠毁",
+      "hot_value": 9429570,
       "label": 0,
-      "event_time": 1769576073
+      "event_time": 1769574170
     },
     {
       "rank": 9,
-      "word": "可回收火箭的三大技术挑战",
-      "hot_value": 9107128,
-      "label": 3,
-      "event_time": 1769567421
+      "word": "霉豆腐穿搭看饿了",
+      "hot_value": 9345425,
+      "label": 1,
+      "event_time": 1769610230
     },
     {
       "rank": 10,
       "word": "我的春节联欢小会",
-      "hot_value": 9103137,
-      "label": 0,
+      "hot_value": 9325261,
+      "label": 3,
       "event_time": 1769601001
     },
     {
       "rank": 11,
+      "word": "可回收火箭的三大技术挑战",
+      "hot_value": 9228316,
+      "label": 3,
+      "event_time": 1769567421
+    },
+    {
+      "rank": 12,
       "word": "中国军号发日语海报",
-      "hot_value": 9099997,
+      "hot_value": 9098177,
       "label": 3,
       "event_time": 1769564960
     },
     {
-      "rank": 12,
+      "rank": 13,
+      "word": "全国各地老吃家提前过年了",
+      "hot_value": 8838193,
+      "label": 0,
+      "event_time": 1769576073
+    },
+    {
+      "rank": 14,
       "word": "21天春节妆容进阶突击班",
-      "hot_value": 8910646,
+      "hot_value": 8530798,
       "label": 8,
       "event_time": 1769602839
     },
     {
-      "rank": 13,
-      "word": "湖北等地将迎大到暴雪",
-      "hot_value": 8680069,
-      "label": 0,
-      "event_time": 1769564987
-    },
-    {
-      "rank": 14,
-      "word": "金建希首案一审宣判",
-      "hot_value": 8360510,
-      "label": 3,
-      "event_time": 1769579895
-    },
-    {
       "rank": 15,
-      "word": "31省份2025年GDP出炉",
-      "hot_value": 8352180,
+      "word": "乌外长：泽连斯基愿与普京会面",
+      "hot_value": 8308294,
       "label": 3,
-      "event_time": 1769593062
+      "event_time": 1769558274
     },
     {
       "rank": 16,
       "word": "王子 愿天堂没有病痛",
-      "hot_value": 8154905,
+      "hot_value": 8057204,
       "label": 0,
       "event_time": 1769567336
     },
     {
       "rank": 17,
-      "word": "黄金白银基金宣布暂停申购",
-      "hot_value": 7868395,
-      "label": 0,
-      "event_time": 1769565211
-    },
-    {
-      "rank": 18,
       "word": "给泡沫转场上难度了",
-      "hot_value": 7835072,
+      "hot_value": 7837892,
       "label": 9,
       "event_time": 1769578425
     },
     {
+      "rank": 18,
+      "word": "黄金白银基金宣布暂停申购",
+      "hot_value": 7833578,
+      "label": 0,
+      "event_time": 1769565211
+    },
+    {
       "rank": 19,
-      "word": "下一站嘉禾望岗",
-      "hot_value": 7833509,
-      "label": 1,
-      "event_time": 1769594998
+      "word": "急急如律令脸势舞挑战",
+      "hot_value": 7828375,
+      "label": 9,
+      "event_time": 1769589508
     },
     {
       "rank": 20,
-      "word": "急急如律令脸势舞挑战",
-      "hot_value": 7817609,
-      "label": 9,
-      "event_time": 1769589508
+      "word": "大学生救落水父子不幸牺牲",
+      "hot_value": 7811312,
+      "label": 17,
+      "event_time": 1769573310
     }
   ],
-  "update_time": "2026-01-28 14:22:21",
+  "update_time": "2026-01-28 15:23:35",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

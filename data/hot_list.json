@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "中国准备太空采矿",
-      "hot_value": 12104126,
+      "hot_value": 12106856,
       "label": 3,
       "event_time": 1769656278
     },
     {
       "rank": 2,
       "word": "热气腾腾中国年",
-      "hot_value": 11952738,
+      "hot_value": 11993788,
       "label": 3,
       "event_time": 1769668727
     },
     {
       "rank": 3,
       "word": "加快培育服务消费新增长点",
-      "hot_value": 11625519,
+      "hot_value": 11683121,
       "label": 0,
       "event_time": 1769684636
     },
     {
       "rank": 4,
       "word": "地球村年味大赏",
-      "hot_value": 11483773,
+      "hot_value": 11567895,
       "label": 3,
       "event_time": 1769672402
     },
     {
       "rank": 5,
       "word": "国防部回应“击沉中国军舰”动画",
-      "hot_value": 10409848,
+      "hot_value": 10349128,
       "label": 0,
       "event_time": 1769671882
     },
     {
       "rank": 6,
       "word": "伊朗：美若动武 伊将打击以色列",
-      "hot_value": 10206466,
+      "hot_value": 10200121,
       "label": 3,
       "event_time": 1769643757
     },
     {
       "rank": 7,
       "word": "春节小客车上高速免费9天",
-      "hot_value": 9086959,
+      "hot_value": 8970468,
       "label": 0,
       "event_time": 1769654529
     },
     {
       "rank": 8,
       "word": "鲍威尔罕见对黄金表态释放何信号",
-      "hot_value": 9053458,
+      "hot_value": 8930312,
       "label": 0,
       "event_time": 1769657777
     },
     {
       "rank": 9,
-      "word": "全球大国的白银争夺战",
-      "hot_value": 9013108,
-      "label": 0,
-      "event_time": 1769641355
-    },
-    {
-      "rank": 10,
       "word": "中菲就涉海等问题举行双边对话",
-      "hot_value": 8932477,
+      "hot_value": 8915031,
       "label": 0,
       "event_time": 1769689106
     },
     {
+      "rank": 10,
+      "word": "枪杀美国公民的执法人员被停职",
+      "hot_value": 8461022,
+      "label": 0,
+      "event_time": 1769664861
+    },
+    {
       "rank": 11,
-      "word": "交警回应金晨被曝肇事逃逸",
-      "hot_value": 8477805,
-      "label": 3,
-      "event_time": 1769664673
+      "word": "内蒙古党委原书记孙绍骋被查",
+      "hot_value": 8279263,
+      "label": 0,
+      "event_time": 1769680868
     },
     {
       "rank": 12,
       "word": "茅台否认参与SpaceX上市融资",
-      "hot_value": 8255289,
-      "label": 3,
+      "hot_value": 7802142,
+      "label": 0,
       "event_time": 1769685593
     },
     {
       "rank": 13,
       "word": "中央军委原委员廖锡龙逝世",
-      "hot_value": 7897136,
+      "hot_value": 7774097,
       "label": 0,
       "event_time": 1769684012
     },
     {
       "rank": 14,
-      "word": "内蒙古党委原书记孙绍骋被查",
-      "hot_value": 7838915,
+      "word": "这一刻终于放过了自己",
+      "hot_value": 7751679,
       "label": 0,
-      "event_time": 1769680868
+      "event_time": 1769681148
     },
     {
       "rank": 15,
       "word": "NO BATIDAO舞蹈挑战",
-      "hot_value": 7748698,
+      "hot_value": 7747537,
       "label": 9,
       "event_time": 1769669183
     },
     {
       "rank": 16,
+      "word": "交警回应金晨被曝肇事逃逸",
+      "hot_value": 7742383,
+      "label": 0,
+      "event_time": 1769664673
+    },
+    {
+      "rank": 17,
       "word": "三角洲S8新赛季33任务攻略",
-      "hot_value": 7745565,
+      "hot_value": 7741623,
       "label": 3,
       "event_time": 1769661277
     },
     {
-      "rank": 17,
-      "word": "这一刻终于放过了自己",
-      "hot_value": 7739031,
-      "label": 0,
-      "event_time": 1769681148
-    },
-    {
       "rank": 18,
       "word": "明家犯罪集团11人被执行死刑",
-      "hot_value": 7735168,
+      "hot_value": 7728051,
       "label": 0,
       "event_time": 1769657528
     },
     {
       "rank": 19,
       "word": "9家中超球队被罚分",
-      "hot_value": 7715345,
+      "hot_value": 7725621,
       "label": 0,
       "event_time": 1769658769
     },
     {
       "rank": 20,
-      "word": "哥伦比亚失踪客机坠毁15人遇难",
-      "hot_value": 7714577,
-      "label": 0,
-      "event_time": 1769641265
+      "word": "解读尼帕病毒的传播局限性",
+      "hot_value": 7715968,
+      "label": 3,
+      "event_time": 1769682678
     }
   ],
-  "update_time": "2026-01-29 22:19:07",
+  "update_time": "2026-01-29 23:18:45",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

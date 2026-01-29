@@ -2,146 +2,146 @@
   "hot_list": [
     {
       "rank": 1,
+      "word": "这一刻终于放过了自己",
+      "hot_value": 12049922,
+      "label": 1,
+      "event_time": 1769681148
+    },
+    {
+      "rank": 2,
       "word": "儿时的年味一直围绕着我",
-      "hot_value": 12144241,
+      "hot_value": 11280048,
       "label": 0,
       "event_time": 1769669205
     },
     {
-      "rank": 2,
-      "word": "老外春节硬核挑战穿越中国",
-      "hot_value": 12075996,
-      "label": 3,
-      "event_time": 1769616327
-    },
-    {
       "rank": 3,
-      "word": "2026春运流动量将达95亿人次",
-      "hot_value": 11432091,
+      "word": "加快培育服务消费新增长点",
+      "hot_value": 11262653,
       "label": 0,
-      "event_time": 1769653117
+      "event_time": 1769684636
     },
     {
       "rank": 4,
       "word": "中央军委原委员廖锡龙逝世",
-      "hot_value": 11354657,
+      "hot_value": 11215233,
       "label": 0,
       "event_time": 1769684012
     },
     {
       "rank": 5,
       "word": "感谢你陪我到山那边",
-      "hot_value": 10582535,
+      "hot_value": 10541355,
       "label": 0,
       "event_time": 1769644291
     },
     {
       "rank": 6,
       "word": "中菲就涉海等问题举行双边对话",
-      "hot_value": 10229777,
+      "hot_value": 10463224,
       "label": 1,
       "event_time": 1769689106
     },
     {
       "rank": 7,
       "word": "内蒙古党委原书记孙绍骋被查",
-      "hot_value": 9124849,
-      "label": 0,
+      "hot_value": 9248373,
+      "label": 3,
       "event_time": 1769680868
     },
     {
       "rank": 8,
       "word": "这届年货全是显眼包",
-      "hot_value": 8831840,
+      "hot_value": 9129841,
       "label": 0,
       "event_time": 1769655436
     },
     {
       "rank": 9,
-      "word": "国防部回应“击沉中国军舰”动画",
-      "hot_value": 8683951,
-      "label": 0,
-      "event_time": 1769671882
-    },
-    {
-      "rank": 10,
-      "word": "21天春节妆容进阶突击班",
-      "hot_value": 8651056,
-      "label": 8,
-      "event_time": 1769602839
-    },
-    {
-      "rank": 11,
-      "word": "9家中超球队被罚分",
-      "hot_value": 8500323,
-      "label": 0,
-      "event_time": 1769658769
-    },
-    {
-      "rank": 12,
-      "word": "茅台否认参与SpaceX上市融资",
-      "hot_value": 8432333,
-      "label": 1,
-      "event_time": 1769685593
-    },
-    {
-      "rank": 13,
-      "word": "三角洲S8新赛季开启",
-      "hot_value": 7831569,
-      "label": 3,
-      "event_time": 1769653763
-    },
-    {
-      "rank": 14,
       "word": "热气腾腾中国年",
-      "hot_value": 7812601,
+      "hot_value": 8778748,
       "label": 3,
       "event_time": 1769668727
     },
     {
+      "rank": 10,
+      "word": "地球村年味大赏",
+      "hot_value": 8773623,
+      "label": 3,
+      "event_time": 1769672402
+    },
+    {
+      "rank": 11,
+      "word": "交警回应金晨被曝肇事逃逸",
+      "hot_value": 8547670,
+      "label": 3,
+      "event_time": 1769664673
+    },
+    {
+      "rank": 12,
+      "word": "茅台否认参与SpaceX上市融资",
+      "hot_value": 8543452,
+      "label": 0,
+      "event_time": 1769685593
+    },
+    {
+      "rank": 13,
+      "word": "国防部回应“击沉中国军舰”动画",
+      "hot_value": 8525579,
+      "label": 0,
+      "event_time": 1769671882
+    },
+    {
+      "rank": 14,
+      "word": "明家犯罪集团11人被执行死刑",
+      "hot_value": 7830091,
+      "label": 0,
+      "event_time": 1769657528
+    },
+    {
       "rank": 15,
       "word": "NO BATIDAO舞蹈挑战",
-      "hot_value": 7803487,
+      "hot_value": 7814802,
       "label": 9,
       "event_time": 1769669183
     },
     {
       "rank": 16,
-      "word": "明家犯罪集团11人被执行死刑",
-      "hot_value": 7799843,
-      "label": 0,
-      "event_time": 1769657528
+      "word": "三角洲S8新赛季开启",
+      "hot_value": 7813526,
+      "label": 3,
+      "event_time": 1769653763
     },
     {
       "rank": 17,
-      "word": "骑士主场播放詹姆斯致敬视频",
-      "hot_value": 7785289,
+      "word": "三角洲S8新赛季33任务攻略",
+      "hot_value": 7812415,
       "label": 3,
-      "event_time": 1769649920
+      "event_time": 1769661277
     },
     {
       "rank": 18,
-      "word": "本菲卡4:2皇马",
-      "hot_value": 7785235,
-      "label": 0,
-      "event_time": 1769643345
+      "word": "伊朗：美若动武 伊将打击以色列",
+      "hot_value": 7805904,
+      "label": 3,
+      "event_time": 1769643757
     },
     {
       "rank": 19,
-      "word": "地球村年味大赏",
-      "hot_value": 7768380,
-      "label": 3,
-      "event_time": 1769672402
+      "word": "9家中超球队被罚分",
+      "hot_value": 7790938,
+      "label": 0,
+      "event_time": 1769658769
     },
     {
       "rank": 20,
       "word": "风过留痕定档0203",
-      "hot_value": 7757927,
+      "hot_value": 7782298,
       "label": 8,
       "event_time": 1769675011
     }
   ],
-  "update_time": "2026-01-29 12:36:13",
+  "update_time": "2026-01-29 13:54:05",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "英国首相称中国已崛起",
-      "hot_value": 12101632,
+      "hot_value": 12103411,
       "label": 3,
       "event_time": 1769584724
     },
     {
       "rank": 2,
-      "word": "斯塔默抵京开启访华行程",
-      "hot_value": 12077161,
+      "word": "这是我家的春碗",
+      "hot_value": 11989893,
       "label": 3,
-      "event_time": 1769591773
+      "event_time": 1769574228
     },
     {
       "rank": 3,
       "word": "十四五新增减税降费退税超10万亿",
-      "hot_value": 11836900,
+      "hot_value": 11668965,
       "label": 0,
       "event_time": 1769579898
     },
     {
       "rank": 4,
       "word": "生活放点糖它就是甜的",
-      "hot_value": 11404544,
+      "hot_value": 11364750,
       "label": 3,
       "event_time": 1769584771
     },
     {
       "rank": 5,
       "word": "美联储宣布维持基准利率不变",
-      "hot_value": 10623831,
-      "label": 1,
+      "hot_value": 10373138,
+      "label": 0,
       "event_time": 1769641015
     },
     {
       "rank": 6,
-      "word": "这是我家的春碗",
-      "hot_value": 10391030,
-      "label": 0,
-      "event_time": 1769574228
+      "word": "本菲卡4:2皇马",
+      "hot_value": 10214012,
+      "label": 1,
+      "event_time": 1769643345
     },
     {
       "rank": 7,
+      "word": "花生：这辈子还能这样被吃",
+      "hot_value": 8474509,
+      "label": 0,
+      "event_time": 1769597207
+    },
+    {
+      "rank": 8,
+      "word": "感谢生命终点的摆渡人",
+      "hot_value": 8348010,
+      "label": 0,
+      "event_time": 1769567710
+    },
+    {
+      "rank": 9,
       "word": "年度穿搭开启新年时髦感",
-      "hot_value": 9219517,
+      "hot_value": 8306681,
       "label": 0,
       "event_time": 1769575367
     },
     {
-      "rank": 8,
-      "word": "我的春节联欢小会",
-      "hot_value": 9149800,
-      "label": 3,
-      "event_time": 1769601001
-    },
-    {
-      "rank": 9,
-      "word": "可回收火箭的三大技术挑战",
-      "hot_value": 8952594,
-      "label": 3,
-      "event_time": 1769567421
-    },
-    {
       "rank": 10,
-      "word": "霉豆腐穿搭看饿了",
-      "hot_value": 8930338,
-      "label": 3,
-      "event_time": 1769610230
+      "word": "感谢你陪我到山那边",
+      "hot_value": 7951326,
+      "label": 17,
+      "event_time": 1769644291
     },
     {
       "rank": 11,
-      "word": "21天春节妆容进阶突击班",
-      "hot_value": 8757938,
-      "label": 8,
-      "event_time": 1769602839
-    },
-    {
-      "rank": 12,
-      "word": "中国军号发日语海报",
-      "hot_value": 8424832,
-      "label": 0,
-      "event_time": 1769564960
-    },
-    {
-      "rank": 13,
-      "word": "三角洲新赛季即将上线",
-      "hot_value": 8303834,
-      "label": 3,
-      "event_time": 1769567665
-    },
-    {
-      "rank": 14,
-      "word": "法媒：中国不再是“低端作坊”",
-      "hot_value": 7946899,
-      "label": 0,
-      "event_time": 1769571959
-    },
-    {
-      "rank": 15,
-      "word": "印度一飞机坠毁",
-      "hot_value": 7870807,
-      "label": 0,
-      "event_time": 1769574170
-    },
-    {
-      "rank": 16,
       "word": "给泡沫转场上难度了",
-      "hot_value": 7831344,
+      "hot_value": 7831627,
       "label": 9,
       "event_time": 1769578425
     },
     {
-      "rank": 17,
+      "rank": 12,
+      "word": "急急如律令脸势舞挑战",
+      "hot_value": 7775496,
+      "label": 9,
+      "event_time": 1769589508
+    },
+    {
+      "rank": 13,
+      "word": "我的春节联欢小会",
+      "hot_value": 7768075,
+      "label": 0,
+      "event_time": 1769601001
+    },
+    {
+      "rank": 14,
+      "word": "可回收火箭的三大技术挑战",
+      "hot_value": 7767782,
+      "label": 0,
+      "event_time": 1769567421
+    },
+    {
+      "rank": 15,
+      "word": "夜深忽梦少年事 梦啼妆泪红阑干",
+      "hot_value": 7750118,
+      "label": 3,
+      "event_time": 1769584978
+    },
+    {
+      "rank": 16,
       "word": "王子 愿天堂没有病痛",
-      "hot_value": 7778160,
+      "hot_value": 7745941,
       "label": 3,
       "event_time": 1769567336
     },
     {
+      "rank": 17,
+      "word": "21天春节妆容进阶突击班",
+      "hot_value": 7740803,
+      "label": 8,
+      "event_time": 1769602839
+    },
+    {
       "rank": 18,
-      "word": "黄金白银基金宣布暂停申购",
-      "hot_value": 7775874,
-      "label": 0,
-      "event_time": 1769565211
+      "word": "文旅在线求MC博主共创",
+      "hot_value": 7740519,
+      "label": 3,
+      "event_time": 1769609007
     },
     {
       "rank": 19,
-      "word": "31省份2025年GDP出炉",
-      "hot_value": 7766741,
-      "label": 3,
-      "event_time": 1769593062
+      "word": "齐舞之王驾到通通闪开",
+      "hot_value": 7734610,
+      "label": 9,
+      "event_time": 1769601093
     },
     {
       "rank": 20,
       "word": "哥伦比亚失踪客机坠毁15人遇难",
-      "hot_value": 7743651,
-      "label": 1,
+      "hot_value": 7732551,
+      "label": 0,
       "event_time": 1769641265
     }
   ],
-  "update_time": "2026-01-28 23:19:20",
+  "update_time": "2026-01-29 01:14:12",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

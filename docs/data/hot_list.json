@@ -2,146 +2,146 @@
   "hot_list": [
     {
       "rank": 1,
-      "word": "热气腾腾中国年",
-      "hot_value": 12112684,
-      "label": 3,
-      "event_time": 1769668727
-    },
-    {
-      "rank": 2,
       "word": "地球村年味大赏",
-      "hot_value": 12038688,
+      "hot_value": 12107641,
       "label": 3,
       "event_time": 1769672402
     },
     {
+      "rank": 2,
+      "word": "热气腾腾中国年",
+      "hot_value": 12041821,
+      "label": 3,
+      "event_time": 1769668727
+    },
+    {
       "rank": 3,
       "word": "加快培育服务消费新增长点",
-      "hot_value": 11603549,
+      "hot_value": 11955621,
       "label": 0,
       "event_time": 1769684636
     },
     {
       "rank": 4,
-      "word": "在新疆收获雪季生命力",
-      "hot_value": 11578142,
-      "label": 0,
-      "event_time": 1769582501
-    },
-    {
-      "rank": 5,
       "word": "国防部回应“击沉中国军舰”动画",
-      "hot_value": 10392671,
+      "hot_value": 11580515,
       "label": 3,
       "event_time": 1769671882
     },
     {
-      "rank": 6,
-      "word": "中菲就涉海等问题举行双边对话",
-      "hot_value": 10320228,
+      "rank": 5,
+      "word": "伊朗：美若动武 伊将打击以色列",
+      "hot_value": 10455209,
       "label": 3,
-      "event_time": 1769689106
+      "event_time": 1769643757
+    },
+    {
+      "rank": 6,
+      "word": "水贝一黄金预定价平台兑付困难",
+      "hot_value": 10428250,
+      "label": 3,
+      "event_time": 1769644167
     },
     {
       "rank": 7,
+      "word": "全球大国的白银争夺战",
+      "hot_value": 9140701,
+      "label": 0,
+      "event_time": 1769641355
+    },
+    {
+      "rank": 8,
       "word": "鲍威尔罕见对黄金表态释放何信号",
-      "hot_value": 9150248,
+      "hot_value": 9089572,
       "label": 0,
       "event_time": 1769657777
     },
     {
-      "rank": 8,
-      "word": "枪杀美国公民的执法人员被停职",
-      "hot_value": 9038204,
-      "label": 0,
-      "event_time": 1769664861
-    },
-    {
       "rank": 9,
-      "word": "投资贵金属需注意防范风险",
-      "hot_value": 8754125,
-      "label": 3,
-      "event_time": 1769665915
+      "word": "中国准备太空采矿",
+      "hot_value": 8970532,
+      "label": 0,
+      "event_time": 1769656278
     },
     {
       "rank": 10,
       "word": "9家中超球队被罚分",
-      "hot_value": 8346416,
+      "hot_value": 8959541,
       "label": 0,
       "event_time": 1769658769
     },
     {
       "rank": 11,
       "word": "交警回应金晨被曝肇事逃逸",
-      "hot_value": 8271372,
+      "hot_value": 8526030,
       "label": 3,
       "event_time": 1769664673
     },
     {
       "rank": 12,
       "word": "茅台否认参与SpaceX上市融资",
-      "hot_value": 7810407,
+      "hot_value": 7946043,
       "label": 3,
       "event_time": 1769685593
     },
     {
       "rank": 13,
+      "word": "三角洲S8新赛季33任务攻略",
+      "hot_value": 7829157,
+      "label": 3,
+      "event_time": 1769661277
+    },
+    {
+      "rank": 14,
       "word": "NO BATIDAO舞蹈挑战",
-      "hot_value": 7788095,
+      "hot_value": 7816071,
       "label": 9,
       "event_time": 1769669183
     },
     {
-      "rank": 14,
-      "word": "这一刻终于放过了自己",
-      "hot_value": 7773018,
-      "label": 0,
-      "event_time": 1769681148
-    },
-    {
       "rank": 15,
       "word": "明家犯罪集团11人被执行死刑",
-      "hot_value": 7752922,
+      "hot_value": 7795534,
       "label": 0,
       "event_time": 1769657528
     },
     {
       "rank": 16,
-      "word": "风过留痕定档0203",
-      "hot_value": 7752767,
-      "label": 8,
-      "event_time": 1769675011
-    },
-    {
-      "rank": 17,
       "word": "夜深忽梦少年事 梦啼妆泪红阑干",
-      "hot_value": 7736183,
+      "hot_value": 7794908,
       "label": 3,
       "event_time": 1769584978
     },
     {
+      "rank": 17,
+      "word": "这一刻终于放过了自己",
+      "hot_value": 7765061,
+      "label": 0,
+      "event_time": 1769681148
+    },
+    {
       "rank": 18,
-      "word": "和平精英把敦煌做进了海岛",
-      "hot_value": 7734632,
-      "label": 3,
-      "event_time": 1769592706
+      "word": "三角洲S8新赛季开启",
+      "hot_value": 7755544,
+      "label": 0,
+      "event_time": 1769653763
     },
     {
       "rank": 19,
-      "word": "三角洲S8新赛季33任务攻略",
-      "hot_value": 7733447,
-      "label": 3,
-      "event_time": 1769661277
+      "word": "枪杀美国公民的执法人员被停职",
+      "hot_value": 7753247,
+      "label": 0,
+      "event_time": 1769664861
     },
     {
       "rank": 20,
       "word": "春节小客车上高速免费9天",
-      "hot_value": 7733101,
+      "hot_value": 7742807,
       "label": 0,
       "event_time": 1769654529
     }
   ],
-  "update_time": "2026-01-29 17:30:37",
+  "update_time": "2026-01-29 18:32:27",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

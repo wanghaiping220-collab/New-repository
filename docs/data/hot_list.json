@@ -2,146 +2,146 @@
   "hot_list": [
     {
       "rank": 1,
-      "word": "特朗普驱赶ABC记者",
-      "hot_value": 12113464,
-      "label": 1,
-      "event_time": 1769830189
-    },
-    {
-      "rank": 2,
       "word": "把思念写进一封家书",
-      "hot_value": 11034104,
+      "hot_value": 12108127,
       "label": 3,
       "event_time": 1769772354
     },
     {
+      "rank": 2,
+      "word": "2026第一个月就要过完了",
+      "hot_value": 11007017,
+      "label": 3,
+      "event_time": 1769819491
+    },
+    {
       "rank": 3,
       "word": "智能守护大国粮仓",
-      "hot_value": 10987992,
+      "hot_value": 10912634,
       "label": 0,
       "event_time": 1769836132
     },
     {
       "rank": 4,
       "word": "张帅组合获得澳网女双冠军",
-      "hot_value": 10796540,
+      "hot_value": 10806371,
       "label": 3,
       "event_time": 1769828628
     },
     {
       "rank": 5,
-      "word": "2026第一个月就要过完了",
-      "hot_value": 10190914,
-      "label": 3,
-      "event_time": 1769819491
+      "word": "年夜饭代表牛羊肉申请出战",
+      "hot_value": 10174702,
+      "label": 0,
+      "event_time": 1769785513
     },
     {
       "rank": 6,
       "word": "北方人对面食的执念有多深",
-      "hot_value": 9829822,
+      "hot_value": 10172110,
       "label": 0,
       "event_time": 1769751720
     },
     {
       "rank": 7,
-      "word": "年夜饭代表牛羊肉申请出战",
-      "hot_value": 8491619,
-      "label": 0,
-      "event_time": 1769785513
-    },
-    {
-      "rank": 8,
       "word": "烟火下心愿皆成",
-      "hot_value": 8473111,
+      "hot_value": 8682242,
       "label": 0,
       "event_time": 1769829448
     },
     {
-      "rank": 9,
-      "word": "1.8亿理财剩44万 最高法发声",
-      "hot_value": 8316944,
-      "label": 3,
-      "event_time": 1769763369
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "word": "俄罗斯重新将14名日本人列为战犯",
-      "hot_value": 8290293,
+      "hot_value": 8646660,
       "label": 0,
       "event_time": 1769817236
     },
     {
-      "rank": 11,
-      "word": "美联邦政府部分“停摆”",
-      "hot_value": 8173562,
-      "label": 1,
-      "event_time": 1769835729
-    },
-    {
-      "rank": 12,
+      "rank": 9,
       "word": "欧冠淘汰赛附加赛抽签出炉",
-      "hot_value": 7817910,
+      "hot_value": 8609584,
       "label": 0,
       "event_time": 1769778616
     },
     {
+      "rank": 10,
+      "word": "国内金饰克价跌超百元",
+      "hot_value": 8598402,
+      "label": 1,
+      "event_time": 1769837921
+    },
+    {
+      "rank": 11,
+      "word": "美联邦政府部分“停摆”",
+      "hot_value": 8070571,
+      "label": 0,
+      "event_time": 1769835729
+    },
+    {
+      "rank": 12,
+      "word": "电视剧年少有为开播",
+      "hot_value": 7822990,
+      "label": 8,
+      "event_time": 1769832675
+    },
+    {
       "rank": 13,
+      "word": "1.8亿理财剩44万 最高法发声",
+      "hot_value": 7821037,
+      "label": 0,
+      "event_time": 1769763369
+    },
+    {
+      "rank": 14,
       "word": "生命树白菊妈妈反对女儿进山",
-      "hot_value": 7817008,
+      "hot_value": 7807266,
       "label": 5,
       "event_time": 1769746734
     },
     {
-      "rank": 14,
-      "word": "外交部回应巴拿马涉港口有关裁决",
-      "hot_value": 7796327,
-      "label": 0,
-      "event_time": 1769758921
+      "rank": 15,
+      "word": "阿尔及利亚遥感三号卫星B星发射",
+      "hot_value": 7805318,
+      "label": 1,
+      "event_time": 1769834913
     },
     {
-      "rank": 15,
+      "rank": 16,
       "word": "蒹葭练胯舞蹈挑战",
-      "hot_value": 7792565,
+      "hot_value": 7795525,
       "label": 9,
       "event_time": 1769774233
     },
     {
-      "rank": 16,
-      "word": "美元创7月来最大单日涨幅",
-      "hot_value": 7784982,
-      "label": 0,
-      "event_time": 1769824301
-    },
-    {
       "rank": 17,
       "word": "抖音年味舞蹈大赏",
-      "hot_value": 7780288,
+      "hot_value": 7784173,
       "label": 9,
       "event_time": 1769834661
     },
     {
       "rank": 18,
-      "word": "世贸争端案专家组驳回美方抗辩",
-      "hot_value": 7773718,
-      "label": 0,
-      "event_time": 1769787788
+      "word": "美元创7月来最大单日涨幅",
+      "hot_value": 7783955,
+      "label": 3,
+      "event_time": 1769824301
     },
     {
       "rank": 19,
-      "word": "电视剧年少有为开播",
-      "hot_value": 7771497,
-      "label": 8,
-      "event_time": 1769832675
+      "word": "英国演员裴淳华给首相整笑了",
+      "hot_value": 7783937,
+      "label": 1,
+      "event_time": 1769833991
     },
     {
       "rank": 20,
-      "word": "飞驰3沈腾把志同道合具象化了",
-      "hot_value": 7770280,
-      "label": 12,
-      "event_time": 1769834419
+      "word": "世贸争端案专家组驳回美方抗辩",
+      "hot_value": 7769423,
+      "label": 0,
+      "event_time": 1769787788
     }
   ],
-  "update_time": "2026-01-31 06:27:48",
+  "update_time": "2026-01-31 07:21:59",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

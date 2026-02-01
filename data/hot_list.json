@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "2026年2月第一天",
-      "hot_value": 12105649,
+      "hot_value": 11254631,
       "label": 3,
       "event_time": 1769903858
     },
     {
       "rank": 2,
       "word": "这个冬天被抖音网友的善意暖到了",
-      "hot_value": 11057336,
+      "hot_value": 11170487,
       "label": 3,
       "event_time": 1769865797
     },
     {
       "rank": 3,
       "word": "“华龙一号”批量化建设加速",
-      "hot_value": 10923072,
+      "hot_value": 11086955,
       "label": 3,
       "event_time": 1769866148
     },
     {
       "rank": 4,
       "word": "也没人告诉我洛阳这么出片呀",
-      "hot_value": 10724895,
-      "label": 1,
+      "hot_value": 11040464,
+      "label": 0,
       "event_time": 1769923767
     },
     {
       "rank": 5,
       "word": "毛孩子也要过春节",
-      "hot_value": 9677813,
-      "label": 1,
+      "hot_value": 10432848,
+      "label": 0,
       "event_time": 1769914855
     },
     {
       "rank": 6,
       "word": "东北糖葫芦让我充满惊喜",
-      "hot_value": 9671096,
-      "label": 0,
+      "hot_value": 10266257,
+      "label": 3,
       "event_time": 1769915243
     },
     {
       "rank": 7,
       "word": "年夜饭提前演练起来",
-      "hot_value": 8489308,
+      "hot_value": 9121631,
       "label": 0,
       "event_time": 1769825908
     },
     {
       "rank": 8,
       "word": "乌拉圭总统奥尔西抵达北京",
-      "hot_value": 8268834,
+      "hot_value": 9104928,
       "label": 0,
       "event_time": 1769904279
     },
     {
       "rank": 9,
-      "word": "英国首相镜头里的中国军人",
-      "hot_value": 8121587,
+      "word": "名侦探柯南声明",
+      "hot_value": 9070716,
       "label": 0,
-      "event_time": 1769856640
+      "event_time": 1769914446
     },
     {
       "rank": 10,
       "word": "保罗·乔治禁赛25场",
-      "hot_value": 8086548,
+      "hot_value": 9011229,
       "label": 3,
       "event_time": 1769903154
     },
     {
       "rank": 11,
-      "word": "伊媒否认革命卫队海军司令遭暗杀",
-      "hot_value": 8078634,
+      "word": "英国首相镜头里的中国军人",
+      "hot_value": 8819109,
       "label": 3,
-      "event_time": 1769861092
+      "event_time": 1769856640
     },
     {
       "rank": 12,
       "word": "专家辟谣今年2月“823年一遇”",
-      "hot_value": 7817455,
+      "hot_value": 8682011,
       "label": 16,
       "event_time": 1769859695
     },
     {
       "rank": 13,
       "word": "什么是商业不动产REITs",
-      "hot_value": 7813444,
+      "hot_value": 8651069,
       "label": 3,
       "event_time": 1769825746
     },
     {
       "rank": 14,
+      "word": "河村勇辉公牛首秀",
+      "hot_value": 7930573,
+      "label": 0,
+      "event_time": 1769914787
+    },
+    {
+      "rank": 15,
       "word": "谁还没吃水煮白开水",
-      "hot_value": 7793543,
+      "hot_value": 7809828,
       "label": 9,
       "event_time": 1769860509
     },
     {
-      "rank": 15,
-      "word": "率先在天坛开躺",
-      "hot_value": 7788424,
-      "label": 9,
-      "event_time": 1769865934
-    },
-    {
       "rank": 16,
-      "word": "突然的喜欢大结局",
-      "hot_value": 7785777,
-      "label": 3,
-      "event_time": 1769863872
-    },
-    {
-      "rank": 17,
       "word": "马德里不思议手势舞",
-      "hot_value": 7778253,
+      "hot_value": 7791581,
       "label": 9,
       "event_time": 1769926260
     },
     {
+      "rank": 17,
+      "word": "率先在天坛开躺",
+      "hot_value": 7766637,
+      "label": 9,
+      "event_time": 1769865934
+    },
+    {
       "rank": 18,
-      "word": "年夜饭代表牛羊肉申请出战",
-      "hot_value": 7764546,
-      "label": 0,
-      "event_time": 1769785513
+      "word": "杨紫的狗狗也加入生命树了",
+      "hot_value": 7761371,
+      "label": 8,
+      "event_time": 1769859808
     },
     {
       "rank": 19,
       "word": "抖音年味舞蹈大赏",
-      "hot_value": 7724455,
+      "hot_value": 7737092,
       "label": 9,
       "event_time": 1769834661
     },
     {
       "rank": 20,
-      "word": "可爱Q版的我",
-      "hot_value": 7723668,
-      "label": 9,
-      "event_time": 1769853733
+      "word": "MC进入文旅共创时代",
+      "hot_value": 7729447,
+      "label": 8,
+      "event_time": 1769923543
     }
   ],
-  "update_time": "2026-02-01 07:31:40",
+  "update_time": "2026-02-01 08:22:04",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

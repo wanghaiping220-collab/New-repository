@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "永远会被陌生人的善意感动",
-      "hot_value": 12029575,
-      "label": 1,
+      "hot_value": 12038336,
+      "label": 0,
       "event_time": 1770035883
     },
     {
       "rank": 2,
-      "word": "春运只为奔赴那一场共同的团圆",
-      "hot_value": 11259434,
-      "label": 0,
-      "event_time": 1770019763
-    },
-    {
-      "rank": 3,
-      "word": "春节档国产片题材百花齐放",
-      "hot_value": 11210111,
-      "label": 1,
-      "event_time": 1770036531
-    },
-    {
-      "rank": 4,
       "word": "今年你回家过年吗",
-      "hot_value": 10806136,
+      "hot_value": 11624526,
       "label": 0,
       "event_time": 1770019872
     },
     {
-      "rank": 5,
-      "word": "二月对我好一点吧",
-      "hot_value": 10169906,
+      "rank": 3,
+      "word": "春节档国产片题材百花齐放",
+      "hot_value": 11173260,
       "label": 0,
-      "event_time": 1770013926
+      "event_time": 1770036531
+    },
+    {
+      "rank": 4,
+      "word": "春运只为奔赴那一场共同的团圆",
+      "hot_value": 10825080,
+      "label": 0,
+      "event_time": 1770019763
+    },
+    {
+      "rank": 5,
+      "word": "我有节目献给春节",
+      "hot_value": 10171502,
+      "label": 0,
+      "event_time": 1770005657
     },
     {
       "rank": 6,
       "word": "音乐人袁惟仁去世",
-      "hot_value": 10112459,
+      "hot_value": 10159649,
       "label": 0,
       "event_time": 1770024436
     },
     {
       "rank": 7,
-      "word": "唐一军被判无期",
-      "hot_value": 8843106,
+      "word": "二月对我好一点吧",
+      "hot_value": 8901702,
       "label": 0,
-      "event_time": 1770022923
+      "event_time": 1770013926
     },
     {
       "rank": 8,
       "word": "手工整活大赛开赛啦",
-      "hot_value": 8719989,
+      "hot_value": 8625733,
       "label": 8,
       "event_time": 1770018502
     },
     {
       "rank": 9,
+      "word": "在MC里看见中式美学",
+      "hot_value": 8564060,
+      "label": 8,
+      "event_time": 1770031432
+    },
+    {
+      "rank": 10,
       "word": "手帐界也有霉豆腐了",
-      "hot_value": 8707515,
+      "hot_value": 8309792,
       "label": 0,
       "event_time": 1770018249
     },
     {
-      "rank": 10,
-      "word": "我有节目献给春节",
-      "hot_value": 8661978,
-      "label": 0,
-      "event_time": 1770005657
-    },
-    {
       "rank": 11,
       "word": "伊朗总统已下令启动核谈判",
-      "hot_value": 8313669,
+      "hot_value": 8298781,
       "label": 3,
       "event_time": 1770030015
     },
     {
       "rank": 12,
-      "word": "一口气看懂爱泼斯坦案背后真相",
-      "hot_value": 7878595,
-      "label": 3,
-      "event_time": 1770026328
+      "word": "唐一军被判无期",
+      "hot_value": 7878256,
+      "label": 0,
+      "event_time": 1770022923
     },
     {
       "rank": 13,
-      "word": "中足联：广西平果失去准入资格",
-      "hot_value": 7825894,
-      "label": 3,
-      "event_time": 1770023560
+      "word": "中方要求美方立即停止错误行径",
+      "hot_value": 7820838,
+      "label": 0,
+      "event_time": 1770019421
     },
     {
       "rank": 14,
-      "word": "缅北白家4人被执行死刑",
-      "hot_value": 7820471,
-      "label": 0,
-      "event_time": 1770000044
-    },
-    {
-      "rank": 15,
       "word": "再听一次武家坡",
-      "hot_value": 7797085,
+      "hot_value": 7802518,
       "label": 3,
       "event_time": 1769941149
     },
     {
-      "rank": 16,
-      "word": "网剧成何体统定档0206",
-      "hot_value": 7780406,
-      "label": 5,
-      "event_time": 1770001150
+      "rank": 15,
+      "word": "人民网评宝可梦事件",
+      "hot_value": 7780451,
+      "label": 0,
+      "event_time": 1770015179
     },
     {
-      "rank": 17,
+      "rank": 16,
       "word": "用混剪致敬生命树里的他们",
-      "hot_value": 7779478,
+      "hot_value": 7778950,
       "label": 8,
       "event_time": 1770023657
     },
     {
+      "rank": 17,
+      "word": "网剧成何体统定档0206",
+      "hot_value": 7774953,
+      "label": 5,
+      "event_time": 1770001150
+    },
+    {
       "rank": 18,
       "word": "多家银行发布风险提示",
-      "hot_value": 7776876,
+      "hot_value": 7774905,
       "label": 0,
       "event_time": 1769998613
     },
     {
       "rank": 19,
-      "word": "人民网评宝可梦事件",
-      "hot_value": 7775963,
-      "label": 0,
-      "event_time": 1770015179
+      "word": "一口气看懂爱泼斯坦案背后真相",
+      "hot_value": 7772579,
+      "label": 3,
+      "event_time": 1770026328
     },
     {
       "rank": 20,
-      "word": "时间出了一张牌我没闪开",
-      "hot_value": 7758979,
-      "label": 9,
-      "event_time": 1769956842
+      "word": "中足联：广西平果失去准入资格",
+      "hot_value": 7760163,
+      "label": 3,
+      "event_time": 1770023560
     }
   ],
-  "update_time": "2026-02-02 14:37:37",
+  "update_time": "2026-02-02 15:31:04",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

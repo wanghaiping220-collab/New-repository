@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "致在外奔波的你",
-      "hot_value": 12108290,
+      "hot_value": 11612194,
       "label": 3,
       "event_time": 1769930773
     },
     {
       "rank": 2,
-      "word": "二月对我好一点吧",
-      "hot_value": 11460538,
+      "word": "唐一军被判无期",
+      "hot_value": 11124909,
       "label": 3,
-      "event_time": 1770013926
+      "event_time": 1770022923
     },
     {
       "rank": 3,
       "word": "各地多措并举保障春运出行无忧",
-      "hot_value": 10859226,
-      "label": 0,
+      "hot_value": 10835249,
+      "label": 3,
       "event_time": 1770022090
     },
     {
       "rank": 4,
       "word": "手工整活大赛开赛啦",
-      "hot_value": 10710786,
+      "hot_value": 10708068,
       "label": 8,
       "event_time": 1770018502
     },
     {
       "rank": 5,
+      "word": "二月对我好一点吧",
+      "hot_value": 9921111,
+      "label": 0,
+      "event_time": 1770013926
+    },
+    {
+      "rank": 6,
       "word": "音乐人袁惟仁去世",
-      "hot_value": 9360142,
+      "hot_value": 9697881,
       "label": 0,
       "event_time": 1770024436
     },
     {
-      "rank": 6,
-      "word": "司法部原部长唐一军被判无期",
-      "hot_value": 8214140,
-      "label": 0,
-      "event_time": 1770022923
-    },
-    {
       "rank": 7,
       "word": "手帐界也有霉豆腐了",
-      "hot_value": 8163050,
+      "hot_value": 8448978,
       "label": 1,
       "event_time": 1770018249
     },
     {
       "rank": 8,
+      "word": "暴跌之后金银冲高跳水 方向何在",
+      "hot_value": 8106433,
+      "label": 0,
+      "event_time": 1770014067
+    },
+    {
+      "rank": 9,
       "word": "缅北白家4人被执行死刑",
-      "hot_value": 8049802,
+      "hot_value": 7893371,
       "label": 0,
       "event_time": 1770000044
     },
     {
-      "rank": 9,
-      "word": "中足联：广西平果失去准入资格",
-      "hot_value": 7907755,
+      "rank": 10,
+      "word": "一口气看懂爱泼斯坦案背后真相",
+      "hot_value": 7815177,
       "label": 1,
-      "event_time": 1770023560
+      "event_time": 1770026328
     },
     {
-      "rank": 10,
+      "rank": 11,
       "word": "伊朗总统已下令启动核谈判",
-      "hot_value": 7827902,
+      "hot_value": 7811378,
       "label": 1,
       "event_time": 1770030015
     },
     {
-      "rank": 11,
-      "word": "山海经辟谣：青龙驱金融谣言",
-      "hot_value": 7799829,
-      "label": 16,
-      "event_time": 1770002415
-    },
-    {
       "rank": 12,
-      "word": "詹姆斯首次替补全明星",
-      "hot_value": 7785324,
+      "word": "人民网评宝可梦事件",
+      "hot_value": 7793767,
       "label": 0,
-      "event_time": 1769990167
+      "event_time": 1770015179
     },
     {
       "rank": 13,
-      "word": "用混剪致敬生命树里的他们",
-      "hot_value": 7781397,
-      "label": 8,
-      "event_time": 1770023657
-    },
-    {
-      "rank": 14,
       "word": "时间出了一张牌我没闪开",
-      "hot_value": 7776476,
+      "hot_value": 7764607,
       "label": 9,
       "event_time": 1769956842
     },
     {
+      "rank": 14,
+      "word": "用混剪致敬生命树里的他们",
+      "hot_value": 7761149,
+      "label": 8,
+      "event_time": 1770023657
+    },
+    {
       "rank": 15,
-      "word": "被烟台炒菜小店种草炒腰条了",
-      "hot_value": 7749957,
-      "label": 1,
-      "event_time": 1770025379
+      "word": "终于轮到我们跳青苹果乐园",
+      "hot_value": 7755009,
+      "label": 9,
+      "event_time": 1770017599
     },
     {
       "rank": 16,
       "word": "网剧成何体统定档0206",
-      "hot_value": 7749919,
+      "hot_value": 7749727,
       "label": 5,
       "event_time": 1770001150
     },
     {
       "rank": 17,
-      "word": "再听一次武家坡",
-      "hot_value": 7747145,
-      "label": 3,
-      "event_time": 1769941149
+      "word": "第一批回村的人已经烤上火了",
+      "hot_value": 7748307,
+      "label": 9,
+      "event_time": 1770015410
     },
     {
       "rank": 18,
       "word": "胡彦斌的抖舞曲库更新了",
-      "hot_value": 7742819,
+      "hot_value": 7748073,
       "label": 1,
       "event_time": 1770030666
     },
     {
       "rank": 19,
-      "word": "第一批回村的人已经烤上火了",
-      "hot_value": 7741388,
-      "label": 9,
-      "event_time": 1770015410
+      "word": "再听一次武家坡",
+      "hot_value": 7746475,
+      "label": 3,
+      "event_time": 1769941149
     },
     {
       "rank": 20,
-      "word": "马年就要做新年马“甲”",
-      "hot_value": 7740889,
-      "label": 3,
-      "event_time": 1770010113
+      "word": "中足联：广西平果失去准入资格",
+      "hot_value": 7745591,
+      "label": 0,
+      "event_time": 1770023560
     }
   ],
-  "update_time": "2026-02-02 11:29:46",
+  "update_time": "2026-02-02 12:37:23",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

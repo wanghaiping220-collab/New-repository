@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "致在外奔波的你",
-      "hot_value": 11535355,
+      "hot_value": 12099916,
       "label": 3,
       "event_time": 1769930773
     },
     {
       "rank": 2,
-      "word": "袁惟仁去世",
-      "hot_value": 11091674,
+      "word": "音乐人袁惟仁去世",
+      "hot_value": 11600129,
       "label": 1,
       "event_time": 1770024436
     },
     {
       "rank": 3,
       "word": "各地多措并举保障春运出行无忧",
-      "hot_value": 10741308,
+      "hot_value": 10970258,
       "label": 1,
       "event_time": 1770022090
     },
     {
       "rank": 4,
       "word": "二月对我好一点吧",
-      "hot_value": 10718710,
-      "label": 0,
+      "hot_value": 10710560,
+      "label": 3,
       "event_time": 1770013926
     },
     {
       "rank": 5,
-      "word": "绝区零千夏角色展示",
-      "hot_value": 10181980,
+      "word": "被烟台炒菜小店种草炒腰条了",
+      "hot_value": 9933623,
       "label": 1,
-      "event_time": 1770012508
+      "event_time": 1770025379
     },
     {
       "rank": 6,
-      "word": "金价暴跌后黄金市场挤满顾客",
-      "hot_value": 10172828,
-      "label": 3,
-      "event_time": 1770003411
+      "word": "手工整活大赛开赛啦",
+      "hot_value": 9895322,
+      "label": 8,
+      "event_time": 1770018502
     },
     {
       "rank": 7,
       "word": "司法部原部长唐一军被判无期",
-      "hot_value": 8892119,
+      "hot_value": 8503702,
       "label": 1,
       "event_time": 1770022923
     },
     {
       "rank": 8,
-      "word": "黄金暴跌还能抄底吗",
-      "hot_value": 8461458,
+      "word": "现货黄金跌破4500美元",
+      "hot_value": 8399705,
       "label": 1,
-      "event_time": 1770015798
+      "event_time": 1770014120
     },
     {
       "rank": 9,
       "word": "缅北白家4人被执行死刑",
-      "hot_value": 8132914,
+      "hot_value": 8340256,
       "label": 0,
       "event_time": 1770000044
     },
     {
       "rank": 10,
-      "word": "人民网评宝可梦事件",
-      "hot_value": 8090536,
+      "word": "中足联：广西平果失去准入资格",
+      "hot_value": 8244555,
       "label": 1,
-      "event_time": 1770015179
+      "event_time": 1770023560
     },
     {
       "rank": 11,
       "word": "詹姆斯首次替补全明星",
-      "hot_value": 7984166,
-      "label": 3,
+      "hot_value": 7879004,
+      "label": 0,
       "event_time": 1769990167
     },
     {
       "rank": 12,
       "word": "山海经辟谣：青龙驱金融谣言",
-      "hot_value": 7801286,
+      "hot_value": 7794140,
       "label": 16,
       "event_time": 1770002415
     },
     {
       "rank": 13,
-      "word": "你的第一波拜年搭子来了",
-      "hot_value": 7795556,
-      "label": 17,
-      "event_time": 1770003585
-    },
-    {
-      "rank": 14,
       "word": "时间出了一张牌我没闪开",
-      "hot_value": 7761533,
+      "hot_value": 7779060,
       "label": 9,
       "event_time": 1769956842
     },
     {
-      "rank": 15,
-      "word": "多家银行发布风险提示",
-      "hot_value": 7757851,
-      "label": 0,
-      "event_time": 1769998613
-    },
-    {
-      "rank": 16,
-      "word": "造车新势力最新销量公布",
-      "hot_value": 7756934,
+      "rank": 14,
+      "word": "再听一次武家坡",
+      "hot_value": 7777060,
       "label": 3,
-      "event_time": 1769954191
+      "event_time": 1769941149
     },
     {
-      "rank": 17,
-      "word": "马年就要做新年马“甲”",
-      "hot_value": 7755105,
-      "label": 0,
-      "event_time": 1770010113
-    },
-    {
-      "rank": 18,
-      "word": "网剧成何体统定档0206",
-      "hot_value": 7752738,
-      "label": 5,
-      "event_time": 1770001150
-    },
-    {
-      "rank": 19,
+      "rank": 15,
       "word": "第一批回村的人已经烤上火了",
-      "hot_value": 7747801,
+      "hot_value": 7761822,
       "label": 9,
       "event_time": 1770015410
     },
     {
-      "rank": 20,
-      "word": "假期姐妹见面就这么拍",
-      "hot_value": 7739493,
+      "rank": 16,
+      "word": "你的第一波拜年搭子来了",
+      "hot_value": 7761822,
+      "label": 17,
+      "event_time": 1770003585
+    },
+    {
+      "rank": 17,
+      "word": "网剧成何体统定档0206",
+      "hot_value": 7754867,
+      "label": 5,
+      "event_time": 1770001150
+    },
+    {
+      "rank": 18,
+      "word": "多家银行发布风险提示",
+      "hot_value": 7751382,
       "label": 0,
-      "event_time": 1769990798
+      "event_time": 1769998613
+    },
+    {
+      "rank": 19,
+      "word": "人民网评宝可梦事件",
+      "hot_value": 7750343,
+      "label": 0,
+      "event_time": 1770015179
+    },
+    {
+      "rank": 20,
+      "word": "造车新势力最新销量公布",
+      "hot_value": 7747060,
+      "label": 3,
+      "event_time": 1769954191
     }
   ],
-  "update_time": "2026-02-02 09:37:48",
+  "update_time": "2026-02-02 10:36:06",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

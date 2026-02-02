@@ -2,146 +2,146 @@
   "hot_list": [
     {
       "rank": 1,
-      "word": "假期姐妹见面就这么拍",
-      "hot_value": 11592088,
-      "label": 3,
-      "event_time": 1769990798
-    },
-    {
-      "rank": 2,
       "word": "致在外奔波的你",
-      "hot_value": 11290741,
+      "hot_value": 11160526,
       "label": 3,
       "event_time": 1769930773
     },
     {
+      "rank": 2,
+      "word": "二月对我好一点吧",
+      "hot_value": 10903847,
+      "label": 1,
+      "event_time": 1770013926
+    },
+    {
       "rank": 3,
       "word": "2026年春运启动",
-      "hot_value": 11245317,
-      "label": 3,
+      "hot_value": 10719247,
+      "label": 0,
       "event_time": 1769988066
     },
     {
       "rank": 4,
-      "word": "我的过年穿搭准备好了",
-      "hot_value": 10743893,
-      "label": 0,
-      "event_time": 1769916829
+      "word": "金价暴跌后黄金市场挤满顾客",
+      "hot_value": 10355449,
+      "label": 3,
+      "event_time": 1770003411
     },
     {
       "rank": 5,
       "word": "缅北白家4人被执行死刑",
-      "hot_value": 9459939,
+      "hot_value": 9658209,
       "label": 0,
       "event_time": 1770000044
     },
     {
       "rank": 6,
-      "word": "A股",
-      "hot_value": 8710161,
-      "label": 1,
-      "event_time": 1770011857
+      "word": "哈梅内伊向美国发出严正警告",
+      "hot_value": 9636895,
+      "label": 3,
+      "event_time": 1769935704
     },
     {
       "rank": 7,
       "word": "你的第一波拜年搭子来了",
-      "hot_value": 7764092,
-      "label": 9,
+      "hot_value": 7813139,
+      "label": 17,
       "event_time": 1770003585
     },
     {
       "rank": 8,
-      "word": "腊月农村美食总带着浓浓的暖意",
-      "hot_value": 7763519,
-      "label": 0,
-      "event_time": 1769935342
+      "word": "詹姆斯首次替补全明星",
+      "hot_value": 7799266,
+      "label": 3,
+      "event_time": 1769990167
     },
     {
       "rank": 9,
-      "word": "金价暴跌后黄金市场挤满顾客",
-      "hot_value": 7755220,
-      "label": 3,
-      "event_time": 1770003411
-    },
-    {
-      "rank": 10,
       "word": "多家银行发布风险提示",
-      "hot_value": 7753254,
-      "label": 1,
+      "hot_value": 7772371,
+      "label": 0,
       "event_time": 1769998613
     },
     {
+      "rank": 10,
+      "word": "人民网评宝可梦事件",
+      "hot_value": 7770139,
+      "label": 1,
+      "event_time": 1770015179
+    },
+    {
       "rank": 11,
-      "word": "哈梅内伊向美国发出严正警告",
-      "hot_value": 7752442,
-      "label": 0,
-      "event_time": 1769935704
+      "word": "时间出了一张牌我没闪开",
+      "hot_value": 7767864,
+      "label": 9,
+      "event_time": 1769956842
     },
     {
       "rank": 12,
-      "word": "青龙驱金融谣言",
-      "hot_value": 7752229,
+      "word": "山海经辟谣：青龙驱金融谣言",
+      "hot_value": 7759146,
       "label": 16,
       "event_time": 1770002415
     },
     {
       "rank": 13,
-      "word": "詹姆斯首次替补全明星",
-      "hot_value": 7751057,
-      "label": 3,
-      "event_time": 1769990167
+      "word": "马年就要做新年马“甲”",
+      "hot_value": 7756743,
+      "label": 1,
+      "event_time": 1770010113
     },
     {
       "rank": 14,
-      "word": "造车新势力最新销量公布",
-      "hot_value": 7750105,
-      "label": 0,
-      "event_time": 1769954191
-    },
-    {
-      "rank": 15,
-      "word": "南方小土豆勇闯碳水之都",
-      "hot_value": 7738844,
-      "label": 0,
-      "event_time": 1769995872
-    },
-    {
-      "rank": 16,
-      "word": "再听一次武家坡",
-      "hot_value": 7736229,
-      "label": 3,
-      "event_time": 1769941149
-    },
-    {
-      "rank": 17,
-      "word": "论雪景和谢却山的适配度",
-      "hot_value": 7727054,
-      "label": 11,
-      "event_time": 1769957469
-    },
-    {
-      "rank": 18,
       "word": "网剧成何体统定档0206",
-      "hot_value": 7724284,
+      "hot_value": 7753165,
       "label": 5,
       "event_time": 1770001150
     },
     {
+      "rank": 15,
+      "word": "再听一次武家坡",
+      "hot_value": 7752366,
+      "label": 3,
+      "event_time": 1769941149
+    },
+    {
+      "rank": 16,
+      "word": "论雪景和谢却山的适配度",
+      "hot_value": 7752176,
+      "label": 11,
+      "event_time": 1769957469
+    },
+    {
+      "rank": 17,
+      "word": "造车新势力最新销量公布",
+      "hot_value": 7745398,
+      "label": 0,
+      "event_time": 1769954191
+    },
+    {
+      "rank": 18,
+      "word": "假期姐妹见面就这么拍",
+      "hot_value": 7725389,
+      "label": 0,
+      "event_time": 1769990798
+    },
+    {
       "rank": 19,
       "word": "白鹿新剧红衣舞剑依旧权威",
-      "hot_value": 7715812,
+      "hot_value": 7723391,
       "label": 5,
       "event_time": 1770002898
     },
     {
       "rank": 20,
-      "word": "飞驰3贾冰复刻赛道永远的王",
-      "hot_value": 7710508,
+      "word": "王楚然丞磊新剧穿书戏精",
+      "hot_value": 7718446,
       "label": 5,
-      "event_time": 1770002517
+      "event_time": 1770011925
     }
   ],
-  "update_time": "2026-02-02 07:02:51",
+  "update_time": "2026-02-02 08:33:00",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

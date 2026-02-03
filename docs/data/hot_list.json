@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "俄方向日本发出警告",
-      "hot_value": 12050577,
+      "hot_value": 12096668,
       "label": 3,
       "event_time": 1770109711
     },
     {
       "rank": 2,
       "word": "扫雷吃东西挑战",
-      "hot_value": 12013245,
+      "hot_value": 12053708,
       "label": 3,
       "event_time": 1770114580
     },
     {
       "rank": 3,
       "word": "2026中央一号文件发布",
-      "hot_value": 11994325,
+      "hot_value": 11913498,
       "label": 3,
       "event_time": 1770113928
     },
     {
       "rank": 4,
-      "word": "万物皆可拼豆",
-      "hot_value": 11769535,
+      "word": "记录我的春运返乡故事",
+      "hot_value": 11856123,
       "label": 3,
-      "event_time": 1770106285
+      "event_time": 1770091989
     },
     {
       "rank": 5,
-      "word": "记录我的春运返乡故事",
-      "hot_value": 11136679,
+      "word": "万物皆可拼豆",
+      "hot_value": 11230607,
       "label": 0,
-      "event_time": 1770091989
+      "event_time": 1770106285
     },
     {
       "rank": 6,
       "word": "春节美食挑战赛轮番开场啦",
-      "hot_value": 10929438,
+      "hot_value": 11157716,
       "label": 0,
       "event_time": 1770095672
     },
     {
       "rank": 7,
-      "word": "走过属于我们的冬天",
-      "hot_value": 9433595,
-      "label": 0,
-      "event_time": 1770080812
-    },
-    {
-      "rank": 8,
       "word": "李微微一审被判无期",
-      "hot_value": 9202511,
+      "hot_value": 9721933,
       "label": 0,
       "event_time": 1770109355
     },
     {
+      "rank": 8,
+      "word": "走过属于我们的冬天",
+      "hot_value": 9180945,
+      "label": 0,
+      "event_time": 1770080812
+    },
+    {
       "rank": 9,
       "word": "嘉禾望岗为什么火了",
-      "hot_value": 9180898,
+      "hot_value": 9180919,
       "label": 0,
       "event_time": 1770038221
     },
     {
       "rank": 10,
       "word": "被冬奥会中国代表团队服种草了",
-      "hot_value": 9179835,
+      "hot_value": 9127712,
       "label": 3,
       "event_time": 1770094661
     },
     {
       "rank": 11,
       "word": "李微漪确认格林离世",
-      "hot_value": 9174216,
+      "hot_value": 9097674,
       "label": 8,
       "event_time": 1770002615
     },
     {
       "rank": 12,
       "word": "多地网传“人贩子出没”系谣言",
-      "hot_value": 9135360,
+      "hot_value": 9080465,
       "label": 16,
       "event_time": 1770117661
     },
     {
       "rank": 13,
       "word": "襄阳通报精神医院骗保",
-      "hot_value": 9111597,
+      "hot_value": 9074795,
       "label": 0,
       "event_time": 1770086683
     },
     {
       "rank": 14,
       "word": "风过留痕凶手可怜又可恨",
-      "hot_value": 9100351,
+      "hot_value": 9002183,
       "label": 5,
       "event_time": 1770099587
     },
     {
       "rank": 15,
-      "word": "外交部回应日本海底挖到稀土泥",
-      "hot_value": 9094741,
+      "word": "央行将开展8000亿元买断式逆回购",
+      "hot_value": 8996850,
       "label": 3,
-      "event_time": 1770101846
+      "event_time": 1770121363
     },
     {
       "rank": 16,
       "word": "警方通报“夫妻吃娃娃菜中毒”",
-      "hot_value": 9083439,
+      "hot_value": 8986913,
       "label": 0,
       "event_time": 1770129821
     },
     {
       "rank": 17,
       "word": "哈登或将离开快船",
-      "hot_value": 9048988,
+      "hot_value": 8927266,
       "label": 0,
       "event_time": 1770094130
     },
     {
       "rank": 18,
       "word": "爱泼斯坦案“吃人”传闻是真的吗",
-      "hot_value": 9015338,
+      "hot_value": 8793727,
       "label": 0,
       "event_time": 1770095302
     },
     {
       "rank": 19,
       "word": "詹姆斯或将在今夏离开湖人",
-      "hot_value": 8854163,
+      "hot_value": 8749027,
       "label": 3,
       "event_time": 1770080561
     },
     {
       "rank": 20,
-      "word": "央行将开展8000亿元买断式逆回购",
-      "hot_value": 8363530,
+      "word": "外交部回应日本海底挖到稀土泥",
+      "hot_value": 7854130,
       "label": 0,
-      "event_time": 1770121363
+      "event_time": 1770101846
     }
   ],
-  "update_time": "2026-02-03 21:26:00",
+  "update_time": "2026-02-03 22:21:37",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

@@ -2,146 +2,146 @@
   "hot_list": [
     {
       "rank": 1,
-      "word": "明天立春了",
-      "hot_value": 12029363,
-      "label": 0,
-      "event_time": 1770094852
-    },
-    {
-      "rank": 2,
-      "word": "春节美食挑战赛轮番开场啦",
-      "hot_value": 11933194,
-      "label": 0,
-      "event_time": 1770095672
-    },
-    {
-      "rank": 3,
-      "word": "城市“超级充电宝”是怎样建的",
-      "hot_value": 11920267,
-      "label": 0,
-      "event_time": 1770106253
-    },
-    {
-      "rank": 4,
-      "word": "记录我的春运返乡故事",
-      "hot_value": 11854246,
-      "label": 3,
-      "event_time": 1770091989
-    },
-    {
-      "rank": 5,
-      "word": "走过属于我们的冬天",
-      "hot_value": 10515718,
-      "label": 0,
-      "event_time": 1770080812
-    },
-    {
-      "rank": 6,
-      "word": "嘉禾望岗为什么火了",
-      "hot_value": 10279743,
-      "label": 3,
-      "event_time": 1770038221
-    },
-    {
-      "rank": 7,
-      "word": "被冬奥会中国代表团队服种草了",
-      "hot_value": 9134848,
-      "label": 0,
-      "event_time": 1770094661
-    },
-    {
-      "rank": 8,
-      "word": "2026中央一号文件发布",
-      "hot_value": 9125868,
-      "label": 1,
-      "event_time": 1770113928
-    },
-    {
-      "rank": 9,
       "word": "国投瑞银回应白银LOF巨震",
-      "hot_value": 9125271,
+      "hot_value": 12073758,
       "label": 3,
       "event_time": 1770095590
     },
     {
-      "rank": 10,
-      "word": "今晚油价上调",
-      "hot_value": 9115088,
-      "label": 1,
-      "event_time": 1770109516
+      "rank": 2,
+      "word": "明天立春了",
+      "hot_value": 12000967,
+      "label": 3,
+      "event_time": 1770094852
     },
     {
-      "rank": 11,
+      "rank": 3,
+      "word": "城市“超级充电宝”是怎样建的",
+      "hot_value": 11800074,
+      "label": 3,
+      "event_time": 1770106253
+    },
+    {
+      "rank": 4,
+      "word": "春节美食挑战赛轮番开场啦",
+      "hot_value": 11627918,
+      "label": 0,
+      "event_time": 1770095672
+    },
+    {
+      "rank": 5,
+      "word": "“网购娃娃菜中毒”系夫妻合谋骗赔",
+      "hot_value": 10621213,
+      "label": 1,
+      "event_time": 1770117381
+    },
+    {
+      "rank": 6,
+      "word": "记录我的春运返乡故事",
+      "hot_value": 9236111,
+      "label": 0,
+      "event_time": 1770091989
+    },
+    {
+      "rank": 7,
+      "word": "2026中央一号文件发布",
+      "hot_value": 9225597,
+      "label": 1,
+      "event_time": 1770113928
+    },
+    {
+      "rank": 8,
+      "word": "走过属于我们的冬天",
+      "hot_value": 9164603,
+      "label": 0,
+      "event_time": 1770080812
+    },
+    {
+      "rank": 9,
+      "word": "扫雷吃东西挑战",
+      "hot_value": 9154022,
+      "label": 1,
+      "event_time": 1770114580
+    },
+    {
+      "rank": 10,
       "word": "唐宫奇案定档2月5日",
-      "hot_value": 9090602,
+      "hot_value": 9132853,
       "label": 5,
       "event_time": 1770089095
     },
     {
-      "rank": 12,
+      "rank": 11,
       "word": "山海经辟谣：白泽破科学谣言",
-      "hot_value": 8755070,
+      "hot_value": 9118845,
       "label": 16,
       "event_time": 1770098929
     },
     {
-      "rank": 13,
+      "rank": 12,
       "word": "李微漪确认格林离世",
-      "hot_value": 8565844,
+      "hot_value": 9107766,
       "label": 8,
       "event_time": 1770002615
     },
     {
-      "rank": 14,
+      "rank": 13,
       "word": "李微微一审被判无期",
-      "hot_value": 8442833,
-      "label": 1,
+      "hot_value": 9086877,
+      "label": 0,
       "event_time": 1770109355
     },
     {
-      "rank": 15,
-      "word": "乒乓球亚洲杯小组赛签表出炉",
-      "hot_value": 8355104,
-      "label": 1,
-      "event_time": 1770105718
+      "rank": 14,
+      "word": "被冬奥会中国代表团队服种草了",
+      "hot_value": 9005190,
+      "label": 0,
+      "event_time": 1770094661
     },
     {
-      "rank": 16,
+      "rank": 15,
       "word": "哈登或将离开快船",
-      "hot_value": 7915591,
+      "hot_value": 8772339,
       "label": 0,
       "event_time": 1770094130
     },
     {
-      "rank": 17,
-      "word": "詹姆斯或将在今夏离开湖人",
-      "hot_value": 7790086,
-      "label": 3,
-      "event_time": 1770080561
+      "rank": 16,
+      "word": "嘉禾望岗为什么火了",
+      "hot_value": 8631274,
+      "label": 0,
+      "event_time": 1770038221
     },
     {
-      "rank": 18,
+      "rank": 17,
       "word": "爱泼斯坦案“吃人”传闻是真的吗",
-      "hot_value": 7779481,
+      "hot_value": 8533600,
       "label": 0,
       "event_time": 1770095302
     },
     {
+      "rank": 18,
+      "word": "今晚油价上调",
+      "hot_value": 8038811,
+      "label": 1,
+      "event_time": 1770109516
+    },
+    {
       "rank": 19,
       "word": "襄阳通报精神医院骗保",
-      "hot_value": 7775023,
+      "hot_value": 7988517,
       "label": 0,
       "event_time": 1770086683
     },
     {
       "rank": 20,
-      "word": "生命树三百元买下传家宝",
-      "hot_value": 7767694,
-      "label": 5,
-      "event_time": 1770089826
+      "word": "詹姆斯或将在今夏离开湖人",
+      "hot_value": 7814625,
+      "label": 3,
+      "event_time": 1770080561
     }
   ],
-  "update_time": "2026-02-03 10:31:09",
+  "update_time": "2026-02-03 11:27:51",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

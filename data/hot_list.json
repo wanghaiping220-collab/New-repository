@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "央视春晚主持人阵容官宣",
-      "hot_value": 11654723,
-      "label": 0,
+      "hot_value": 11563198,
+      "label": 3,
       "event_time": 1770173664
     },
     {
       "rank": 2,
       "word": "今日立春",
-      "hot_value": 11246376,
+      "hot_value": 11087947,
       "label": 3,
       "event_time": 1770160384
     },
     {
       "rank": 3,
       "word": "中央一号文件新提法有深意",
-      "hot_value": 11175316,
-      "label": 1,
+      "hot_value": 11070792,
+      "label": 0,
       "event_time": 1770178309
     },
     {
       "rank": 4,
-      "word": "半个娱乐圈都在平板支撑挑战",
-      "hot_value": 11033697,
-      "label": 3,
-      "event_time": 1770127829
-    },
-    {
-      "rank": 5,
       "word": "恋与深空的古风小生来了",
-      "hot_value": 10381728,
-      "label": 17,
+      "hot_value": 11023343,
+      "label": 1,
       "event_time": 1770179978
     },
     {
+      "rank": 5,
+      "word": "粉彩风和立春一起来了",
+      "hot_value": 10386211,
+      "label": 1,
+      "event_time": 1770174796
+    },
+    {
       "rank": 6,
-      "word": "在线等一个共创机会",
-      "hot_value": 10362434,
-      "label": 3,
-      "event_time": 1770130036
+      "word": "走过属于我们的冬天",
+      "hot_value": 10376996,
+      "label": 0,
+      "event_time": 1770080812
     },
     {
       "rank": 7,
       "word": "哈登被快船交易至骑士",
-      "hot_value": 9190721,
+      "hot_value": 9221244,
       "label": 3,
       "event_time": 1770167547
     },
     {
       "rank": 8,
-      "word": "走过属于我们的冬天",
-      "hot_value": 9126229,
-      "label": 0,
-      "event_time": 1770080812
-    },
-    {
-      "rank": 9,
       "word": "万物皆可拼豆",
-      "hot_value": 9125004,
+      "hot_value": 9152374,
       "label": 0,
       "event_time": 1770106285
     },
     {
+      "rank": 9,
+      "word": "记录我的春运返乡故事",
+      "hot_value": 9137803,
+      "label": 0,
+      "event_time": 1770091989
+    },
+    {
       "rank": 10,
       "word": "湖北省彻查精神病院事件",
-      "hot_value": 9038742,
+      "hot_value": 9130149,
       "label": 3,
       "event_time": 1770171778
     },
     {
       "rank": 11,
       "word": "现货黄金重新站上5000美元",
-      "hot_value": 8576865,
+      "hot_value": 8816381,
       "label": 3,
       "event_time": 1770167137
     },
     {
       "rank": 12,
       "word": "山海经辟谣：重明鸟破健康谣言",
-      "hot_value": 8398103,
+      "hot_value": 8488387,
       "label": 16,
       "event_time": 1770173545
     },
     {
       "rank": 13,
       "word": "俄方向日本发出警告",
-      "hot_value": 8360347,
+      "hot_value": 8345752,
       "label": 0,
       "event_time": 1770109711
     },
     {
       "rank": 14,
-      "word": "风过留痕凶手可怜又可恨",
-      "hot_value": 7868039,
-      "label": 5,
-      "event_time": 1770099587
-    },
-    {
-      "rank": 15,
       "word": "唐宫奇案定档2月5日",
-      "hot_value": 7779749,
+      "hot_value": 8306900,
       "label": 11,
       "event_time": 1770089095
     },
     {
-      "rank": 16,
-      "word": "记录我的春运返乡故事",
-      "hot_value": 7772892,
-      "label": 0,
-      "event_time": 1770091989
+      "rank": 15,
+      "word": "风过留痕凶手可怜又可恨",
+      "hot_value": 8095004,
+      "label": 5,
+      "event_time": 1770099587
     },
     {
-      "rank": 17,
+      "rank": 16,
       "word": "立春吃出仪式感",
-      "hot_value": 7767032,
-      "label": 0,
+      "hot_value": 7868926,
+      "label": 3,
       "event_time": 1770118838
     },
     {
-      "rank": 18,
+      "rank": 17,
       "word": "爱泼斯坦案“吃人”传闻是真的吗",
-      "hot_value": 7758229,
+      "hot_value": 7805284,
       "label": 0,
       "event_time": 1770095302
     },
     {
+      "rank": 18,
+      "word": "春节美食挑战赛轮番开场啦",
+      "hot_value": 7753686,
+      "label": 0,
+      "event_time": 1770095672
+    },
+    {
       "rank": 19,
       "word": "年夜饭菜单提前曝光了",
-      "hot_value": 7758223,
+      "hot_value": 7751968,
       "label": 3,
       "event_time": 1770112766
     },
     {
       "rank": 20,
-      "word": "春节美食挑战赛轮番开场啦",
-      "hot_value": 7747642,
-      "label": 0,
-      "event_time": 1770095672
+      "word": "在线等一个共创机会",
+      "hot_value": 7739166,
+      "label": 9,
+      "event_time": 1770130036
     }
   ],
-  "update_time": "2026-02-04 05:41:30",
+  "update_time": "2026-02-04 06:39:25",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

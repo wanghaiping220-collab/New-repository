@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "今日立春",
-      "hot_value": 11414947,
+      "hot_value": 11195203,
       "label": 3,
       "event_time": 1770160384
     },
     {
       "rank": 2,
       "word": "过年氛围提前搞起来了",
-      "hot_value": 11200764,
+      "hot_value": 11105352,
       "label": 3,
       "event_time": 1770187862
     },
     {
       "rank": 3,
       "word": "马力全开共赴山海",
-      "hot_value": 11160301,
+      "hot_value": 11064093,
       "label": 1,
       "event_time": 1770201851
     },
     {
       "rank": 4,
       "word": "官方集体约谈精神类定点医疗机构",
-      "hot_value": 10993274,
-      "label": 0,
+      "hot_value": 10937119,
+      "label": 3,
       "event_time": 1770196825
     },
     {
       "rank": 5,
       "word": "哈登被快船交易至骑士",
-      "hot_value": 10378242,
+      "hot_value": 10377477,
       "label": 3,
       "event_time": 1770167547
     },
     {
       "rank": 6,
       "word": "各地春节年俗地图",
-      "hot_value": 9186539,
-      "label": 0,
+      "hot_value": 10310439,
+      "label": 3,
       "event_time": 1770185289
     },
     {
       "rank": 7,
+      "word": "这才是跨火盆的满分答案",
+      "hot_value": 9186448,
+      "label": 3,
+      "event_time": 1770183166
+    },
+    {
+      "rank": 8,
       "word": "海克斯大乱斗新春版本",
-      "hot_value": 9178466,
+      "hot_value": 9175004,
       "label": 3,
       "event_time": 1770188755
     },
     {
-      "rank": 8,
-      "word": "第一口春味是家乡的年味",
-      "hot_value": 9117673,
-      "label": 0,
-      "event_time": 1770175706
-    },
-    {
       "rank": 9,
       "word": "粉彩风和立春一起来了",
-      "hot_value": 9110847,
+      "hot_value": 9145147,
       "label": 3,
       "event_time": 1770174796
     },
     {
       "rank": 10,
-      "word": "这才是跨火盆的满分答案",
-      "hot_value": 8918863,
+      "word": "霉豆腐的风还是吹到了蛋糕界",
+      "hot_value": 9102635,
       "label": 0,
-      "event_time": 1770183166
+      "event_time": 1770193576
     },
     {
       "rank": 11,
-      "word": "山海经辟谣：重明鸟破健康谣言",
-      "hot_value": 8909894,
-      "label": 16,
-      "event_time": 1770173545
+      "word": "湖北省彻查精神病院事件",
+      "hot_value": 9100764,
+      "label": 3,
+      "event_time": 1770171778
     },
     {
       "rank": 12,
       "word": "日本多地强降雪致35死358伤",
-      "hot_value": 8881993,
+      "hot_value": 8854433,
       "label": 1,
       "event_time": 1770199215
     },
     {
       "rank": 13,
       "word": "金饰克价一夜涨超100元",
-      "hot_value": 8855215,
+      "hot_value": 8449554,
       "label": 0,
       "event_time": 1770170526
     },
     {
       "rank": 14,
       "word": "上海居民赴金门马祖旅游近期恢复",
-      "hot_value": 8836545,
+      "hot_value": 8157457,
       "label": 3,
       "event_time": 1770188902
     },
     {
       "rank": 15,
       "word": "卡扎菲次子赛义夫丧生",
-      "hot_value": 8523154,
+      "hot_value": 8008501,
       "label": 0,
       "event_time": 1770161707
     },
     {
       "rank": 16,
-      "word": "霉豆腐的风还是吹到了蛋糕界",
-      "hot_value": 8379787,
-      "label": 1,
-      "event_time": 1770193576
+      "word": "第一口春味是家乡的年味",
+      "hot_value": 7973029,
+      "label": 3,
+      "event_time": 1770175706
     },
     {
       "rank": 17,
-      "word": "灵隐寺将暂停爽约者预约资格",
-      "hot_value": 8258014,
-      "label": 1,
-      "event_time": 1770197528
-    },
-    {
-      "rank": 18,
-      "word": "央视春晚主持人阵容官宣",
-      "hot_value": 8197583,
-      "label": 0,
-      "event_time": 1770173664
-    },
-    {
-      "rank": 19,
       "word": "爱泼斯坦案“吃人”传闻是真的吗",
-      "hot_value": 7764003,
+      "hot_value": 7811058,
       "label": 0,
       "event_time": 1770095302
     },
     {
+      "rank": 18,
+      "word": "灵隐寺将暂停爽约者预约资格",
+      "hot_value": 7752361,
+      "label": 0,
+      "event_time": 1770197528
+    },
+    {
+      "rank": 19,
+      "word": "央视春晚主持人阵容官宣",
+      "hot_value": 7752157,
+      "label": 0,
+      "event_time": 1770173664
+    },
+    {
       "rank": 20,
       "word": "金宣虎承认逃税并道歉",
-      "hot_value": 7762908,
+      "hot_value": 7744772,
       "label": 3,
       "event_time": 1770182175
     }
   ],
-  "update_time": "2026-02-04 11:27:05",
+  "update_time": "2026-02-04 12:38:37",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

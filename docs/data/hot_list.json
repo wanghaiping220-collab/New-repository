@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "我的刀盾",
-      "hot_value": 12104080,
+      "hot_value": 12092175,
       "label": 17,
       "event_time": 1770303224
     },
     {
       "rank": 2,
       "word": "加拿大6成受访者支持进口中国电车",
-      "hot_value": 11951732,
+      "hot_value": 12008167,
       "label": 3,
       "event_time": 1770264971
     },
     {
       "rank": 3,
       "word": "中央一号文件里的乡村振兴密码",
-      "hot_value": 11841856,
+      "hot_value": 11936980,
       "label": 3,
       "event_time": 1770300812
     },
     {
       "rank": 4,
       "word": "官方回应男子从着火电车连救3人",
-      "hot_value": 11396775,
+      "hot_value": 11848133,
       "label": 3,
       "event_time": 1770292593
     },
     {
       "rank": 5,
       "word": "彩虹霉豆腐申请出战",
-      "hot_value": 10685713,
+      "hot_value": 11108957,
       "label": 0,
       "event_time": 1770260864
     },
     {
       "rank": 6,
       "word": "非遗祈福百景图",
-      "hot_value": 10649358,
+      "hot_value": 10803156,
       "label": 0,
       "event_time": 1770263618
     },
     {
       "rank": 7,
-      "word": "苏翊鸣晋级大跳台决赛",
-      "hot_value": 9408825,
-      "label": 0,
-      "event_time": 1770293232
+      "word": "辽宁安委会挂牌督办大连交通事故",
+      "hot_value": 9396551,
+      "label": 3,
+      "event_time": 1770283320
     },
     {
       "rank": 8,
       "word": "南京一恶势力集团长期脱离侦控",
-      "hot_value": 9345291,
+      "hot_value": 9341784,
       "label": 3,
       "event_time": 1770271824
     },
     {
       "rank": 9,
-      "word": "辽宁安委会挂牌督办大连交通事故",
-      "hot_value": 9330721,
-      "label": 3,
-      "event_time": 1770283320
-    },
-    {
-      "rank": 10,
       "word": "立陶宛承认对中国犯了巨大错误",
-      "hot_value": 9293486,
+      "hot_value": 9325001,
       "label": 0,
       "event_time": 1770251529
     },
     {
-      "rank": 11,
+      "rank": 10,
       "word": "这届精选创作者宠粉太全面了",
-      "hot_value": 9139102,
+      "hot_value": 9230462,
       "label": 0,
       "event_time": 1770299987
     },
     {
+      "rank": 11,
+      "word": "苏翊鸣晋级大跳台决赛",
+      "hot_value": 9228869,
+      "label": 0,
+      "event_time": 1770293232
+    },
+    {
       "rank": 12,
       "word": "冬日跑步装备大赏",
-      "hot_value": 9095225,
+      "hot_value": 9134325,
       "label": 0,
       "event_time": 1770283245
     },
     {
       "rank": 13,
       "word": "赵心童逆转塞尔比晋级8强",
-      "hot_value": 8913992,
+      "hot_value": 8863326,
       "label": 3,
       "event_time": 1770303815
     },
     {
       "rank": 14,
       "word": "长大了带父母来北京旅游圆梦",
-      "hot_value": 8665421,
+      "hot_value": 8781956,
       "label": 0,
       "event_time": 1770173624
     },
     {
       "rank": 15,
       "word": "李佩仪目睹闺蜜自杀",
-      "hot_value": 8625803,
+      "hot_value": 8439280,
       "label": 11,
       "event_time": 1770294188
     },
     {
       "rank": 16,
-      "word": "多地漫展禁止cos名侦探柯南角色",
-      "hot_value": 8405075,
-      "label": 0,
-      "event_time": 1770288888
+      "word": "沃什未上任已被特朗普施压",
+      "hot_value": 8361606,
+      "label": 3,
+      "event_time": 1770259983
     },
     {
       "rank": 17,
       "word": "美伊谈判濒临破裂后敲定地点",
-      "hot_value": 8401887,
+      "hot_value": 8354316,
       "label": 0,
       "event_time": 1770246914
     },
     {
       "rank": 18,
       "word": "小米首次进入中国500强前十",
-      "hot_value": 8173848,
+      "hot_value": 8231391,
       "label": 0,
       "event_time": 1770276782
     },
     {
       "rank": 19,
       "word": "中方回应长和集团将发起国际仲裁",
-      "hot_value": 8150474,
+      "hot_value": 7894251,
       "label": 0,
       "event_time": 1770278506
     },
     {
       "rank": 20,
       "word": "郑泽晖任深圳市副市长",
-      "hot_value": 8148456,
+      "hot_value": 7835599,
       "label": 0,
       "event_time": 1770284201
     }
   ],
-  "update_time": "2026-02-05 22:18:20",
+  "update_time": "2026-02-05 23:16:46",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

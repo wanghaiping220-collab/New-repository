@@ -2,146 +2,146 @@
   "hot_list": [
     {
       "rank": 1,
+      "word": "我的刀盾",
+      "hot_value": 12141872,
+      "label": 0,
+      "event_time": 1770303224
+    },
+    {
+      "rank": 2,
       "word": "加拿大6成受访者支持进口中国电车",
-      "hot_value": 12209468,
+      "hot_value": 12099612,
       "label": 3,
       "event_time": 1770264971
     },
     {
-      "rank": 2,
-      "word": "彩虹霉豆腐申请出战",
-      "hot_value": 12101528,
-      "label": 3,
-      "event_time": 1770260864
-    },
-    {
       "rank": 3,
       "word": "中央一号文件里的乡村振兴密码",
-      "hot_value": 11561792,
+      "hot_value": 11953468,
       "label": 0,
       "event_time": 1770300812
     },
     {
       "rank": 4,
-      "word": "我的刀盾",
-      "hot_value": 11561136,
-      "label": 1,
-      "event_time": 1770303224
+      "word": "彩虹霉豆腐申请出战",
+      "hot_value": 11823886,
+      "label": 3,
+      "event_time": 1770260864
     },
     {
       "rank": 5,
       "word": "这届精选创作者宠粉太全面了",
-      "hot_value": 10739072,
-      "label": 1,
+      "hot_value": 11197650,
+      "label": 0,
       "event_time": 1770299987
     },
     {
       "rank": 6,
       "word": "非遗祈福百景图",
-      "hot_value": 10640742,
+      "hot_value": 10709621,
       "label": 3,
       "event_time": 1770263618
     },
     {
       "rank": 7,
       "word": "冬日跑步装备大赏",
-      "hot_value": 9491323,
+      "hot_value": 9352612,
       "label": 0,
       "event_time": 1770283245
     },
     {
       "rank": 8,
       "word": "南京一恶势力集团长期脱离侦控",
-      "hot_value": 9412449,
+      "hot_value": 9170529,
       "label": 0,
       "event_time": 1770271824
     },
     {
       "rank": 9,
-      "word": "官方回应男子从着火电车连救3人",
-      "hot_value": 9111302,
-      "label": 1,
-      "event_time": 1770292593
+      "word": "苏翊鸣领衔中国队米兰冬奥首战",
+      "hot_value": 9167056,
+      "label": 0,
+      "event_time": 1770293232
     },
     {
       "rank": 10,
       "word": "立陶宛承认对中国犯了巨大错误",
-      "hot_value": 9110744,
+      "hot_value": 9120480,
       "label": 0,
       "event_time": 1770251529
     },
     {
       "rank": 11,
-      "word": "唐宫奇案开播",
-      "hot_value": 8939247,
-      "label": 8,
-      "event_time": 1770263044
+      "word": "和平精英小火人联动",
+      "hot_value": 9060476,
+      "label": 9,
+      "event_time": 1770261123
     },
     {
       "rank": 12,
-      "word": "苏翊鸣领衔中国队米兰冬奥首战",
-      "hot_value": 8932044,
+      "word": "官方回应男子从着火电车连救3人",
+      "hot_value": 9056965,
       "label": 0,
-      "event_time": 1770293232
+      "event_time": 1770292593
     },
     {
       "rank": 13,
       "word": "卫健委回应襄阳宜昌精神病院问题",
-      "hot_value": 8809680,
+      "hot_value": 8988909,
       "label": 3,
       "event_time": 1770294877
     },
     {
       "rank": 14,
-      "word": "辽宁安委会挂牌督办大连交通事故",
-      "hot_value": 8758936,
-      "label": 0,
-      "event_time": 1770283320
+      "word": "赵心童逆转塞尔比晋级8强",
+      "hot_value": 8704111,
+      "label": 1,
+      "event_time": 1770303815
     },
     {
       "rank": 15,
       "word": "李佩仪目睹闺蜜自杀",
-      "hot_value": 8679447,
+      "hot_value": 8529761,
       "label": 11,
       "event_time": 1770294188
     },
     {
       "rank": 16,
-      "word": "王者马限貂蝉美出长安盛世",
-      "hot_value": 8646772,
+      "word": "辽宁安委会挂牌督办大连交通事故",
+      "hot_value": 8485473,
       "label": 3,
-      "event_time": 1770261187
+      "event_time": 1770283320
     },
     {
       "rank": 17,
-      "word": "和平精英小火人联动",
-      "hot_value": 8449580,
-      "label": 9,
-      "event_time": 1770261123
+      "word": "沃什未上任已被特朗普施压",
+      "hot_value": 8476401,
+      "label": 3,
+      "event_time": 1770259983
     },
     {
       "rank": 18,
-      "word": "长大了带父母来北京旅游圆梦",
-      "hot_value": 8399167,
+      "word": "中方回应长和集团将发起国际仲裁",
+      "hot_value": 8459965,
       "label": 0,
-      "event_time": 1770173624
+      "event_time": 1770278506
     },
     {
       "rank": 19,
-      "word": "小米首次进入中国500强前十",
-      "hot_value": 8319034,
-      "label": 3,
-      "event_time": 1770276782
+      "word": "郑泽晖任深圳市副市长",
+      "hot_value": 8245803,
+      "label": 0,
+      "event_time": 1770284201
     },
     {
       "rank": 20,
-      "word": "中方回应长和集团将发起国际仲裁",
-      "hot_value": 8091937,
-      "label": 0,
-      "event_time": 1770278506
+      "word": "小米首次进入中国500强前十",
+      "hot_value": 8111523,
+      "label": 3,
+      "event_time": 1770276782
     }
   ],
-  "update_time": "2026-02-05 16:36:50",
+  "update_time": "2026-02-05 17:40:49",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

@@ -14,6 +14,28 @@ logger = logging.getLogger(__name__)
 class DouyinScraper:
     """热榜抓取器（支持多数据源和内容板块）"""
 
+    # 抖音 label 标签映射表（数字 -> 文本）
+    LABEL_MAP = {
+        0: "",          # 无标签
+        1: "新",        # 新话题
+        2: "热",        # 热门
+        3: "爆",        # 爆火
+        4: "沸",        # 沸腾
+        5: "荐",        # 推荐
+        6: "直播",      # 直播
+        7: "视频",      # 视频
+        8: "热议",      # 热议
+        9: "音乐",      # 音乐
+        10: "影视",     # 影视
+        11: "游戏",     # 游戏
+        12: "科技",     # 科技
+        13: "美食",     # 美食
+        14: "旅游",     # 旅游
+        15: "时尚",     # 时尚
+        16: "谣言",     # 辟谣
+        17: "娱乐",     # 娱乐
+    }
+
     def __init__(self, config_loader: Optional[ConfigLoader] = None):
         """
         初始化抓取器
@@ -116,11 +138,15 @@ class DouyinScraper:
                             0
                         )
 
+                        # 获取并格式化标签
+                        raw_label = item.get('label', item.get('tag', ''))
+                        formatted_label = self._format_label(raw_label)
+
                         hot_item = {
                             'rank': idx,
                             'word': word,
                             'hot_value': hot_value,
-                            'label': item.get('label', item.get('tag', '')),
+                            'label': formatted_label,
                             'event_time': item.get('event_time', ''),
                         }
                         hot_list.append(hot_item)
@@ -157,6 +183,30 @@ class DouyinScraper:
         self.is_using_test_data = True
         self.current_source_name = "测试数据"
         return self._get_test_data(limit)
+
+    def _format_label(self, label) -> str:
+        """
+        格式化标签（将数字标签转换为文本）
+
+        Args:
+            label: 标签（可能是数字、字符串或空值）
+
+        Returns:
+            格式化后的标签文本
+        """
+        if label is None or label == '':
+            return ''
+
+        # 如果已经是字符串，直接返回
+        if isinstance(label, str):
+            return label
+
+        # 如果是数字，查找映射表
+        if isinstance(label, int):
+            return self.LABEL_MAP.get(label, '')
+
+        # 其他情况返回字符串形式
+        return str(label)
 
     def _identify_source(self, api_url: str):
         """

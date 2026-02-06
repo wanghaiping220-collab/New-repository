@@ -154,12 +154,20 @@
         }
 
         .label {
-            background: #ff6b6b;
             color: white;
             padding: 2px 8px;
             border-radius: 4px;
             font-size: 0.8rem;
+            background: #ff6b6b;
         }
+
+        /* 不同类型标签的颜色 */
+        .label-hot { background: #ff6b6b; }      /* 热/爆 - 红色 */
+        .label-new { background: #4ecdc4; }      /* 新 - 青色 */
+        .label-recommend { background: #ff9f43; } /* 荐 - 橙色 */
+        .label-video { background: #5f27cd; }    /* 视频/直播 - 紫色 */
+        .label-topic { background: #00d2d3; }    /* 话题分类 - 青绿色 */
+        .label-rumor { background: #fd79a8; }    /* 谣言 - 粉色 */
 
         .error {
             background: rgba(255, 255, 255, 0.95);
@@ -274,6 +282,29 @@
             return '';
         }
 
+        // 获取标签样式类
+        function getLabelClass(label) {
+            if (!label) return '';
+            const labelText = label.toString().toLowerCase();
+            if (labelText.includes('热') || labelText.includes('爆') || labelText.includes('沸')) {
+                return 'label-hot';
+            } else if (labelText.includes('新')) {
+                return 'label-new';
+            } else if (labelText.includes('荐')) {
+                return 'label-recommend';
+            } else if (labelText.includes('视频') || labelText.includes('直播')) {
+                return 'label-video';
+            } else if (labelText.includes('谣')) {
+                return 'label-rumor';
+            } else if (labelText.includes('音乐') || labelText.includes('影视') ||
+                       labelText.includes('游戏') || labelText.includes('科技') ||
+                       labelText.includes('美食') || labelText.includes('旅游') ||
+                       labelText.includes('时尚') || labelText.includes('娱乐')) {
+                return 'label-topic';
+            }
+            return '';
+        }
+
         // 加载热榜数据
         async function loadHotList() {
             const container = document.getElementById('hotListContainer');
@@ -335,7 +366,7 @@
                             <div class="title">${item.word}</div>
                             <div class="meta">
                                 <span class="hot-value">🔥 ${formatHotValue(item.hot_value)}</span>
-                                ${item.label ? `<span class="label">${item.label}</span>` : ''}
+                                ${item.label ? `<span class="label ${getLabelClass(item.label)}">${item.label}</span>` : ''}
                             </div>
                         </div>
                     </div>

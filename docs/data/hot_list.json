@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "美国伊朗谈判今日举行",
-      "hot_value": 12403452,
-      "label": "",
+      "hot_value": 12466086,
+      "label": "爆",
       "event_time": 1770333426
     },
     {
       "rank": 2,
       "word": "董亦军被追授时代楷模称号",
-      "hot_value": 11441907,
+      "hot_value": 11316526,
       "label": "爆",
       "event_time": 1770338784
     },
     {
       "rank": 3,
       "word": "“反向过年”成为新潮",
-      "hot_value": 11152385,
+      "hot_value": 11132515,
       "label": "爆",
       "event_time": 1770348501
     },
     {
       "rank": 4,
-      "word": "苏翊鸣晋级大跳台决赛",
-      "hot_value": 11110825,
-      "label": "爆",
-      "event_time": 1770293232
-    },
-    {
-      "rank": 5,
       "word": "橘时到吉时到",
-      "hot_value": 10546411,
-      "label": "新",
+      "hot_value": 11080815,
+      "label": "",
       "event_time": 1770348579
     },
     {
-      "rank": 6,
+      "rank": 5,
       "word": "这届精选创作者宠粉太全面了",
-      "hot_value": 10296462,
+      "hot_value": 10490498,
       "label": "",
       "event_time": 1770299987
     },
     {
+      "rank": 6,
+      "word": "一年一度空气炸锅加班大赛",
+      "hot_value": 10425802,
+      "label": "新",
+      "event_time": 1770348697
+    },
+    {
       "rank": 7,
       "word": "留子回国过年吃啥都香",
-      "hot_value": 9159259,
-      "label": "新",
+      "hot_value": 9264521,
+      "label": "",
       "event_time": 1770350292
     },
     {
       "rank": 8,
       "word": "海南省委原秘书长倪强被双开",
-      "hot_value": 9149596,
+      "hot_value": 9164989,
       "label": "爆",
       "event_time": 1770343440
     },
     {
       "rank": 9,
       "word": "冬日跑步装备大赏",
-      "hot_value": 9121587,
+      "hot_value": 9156466,
       "label": "",
       "event_time": 1770283245
     },
     {
       "rank": 10,
-      "word": "媒体：立陶宛嘴上认错还不够",
-      "hot_value": 9088709,
+      "word": "苏翊鸣晋级大跳台决赛",
+      "hot_value": 9123341,
       "label": "",
-      "event_time": 1770333533
+      "event_time": 1770293232
     },
     {
       "rank": 11,
-      "word": "商业航天何以“一飞冲天”",
-      "hot_value": 9088165,
+      "word": "蛋糕店“霉豆腐蛋糕”火了",
+      "hot_value": 9114799,
       "label": "",
-      "event_time": 1770300554
+      "event_time": 1770304849
     },
     {
       "rank": 12,
       "word": "重庆市政协原副主席段成刚被公诉",
-      "hot_value": 9056744,
+      "hot_value": 9059437,
       "label": "",
       "event_time": 1770346921
     },
     {
       "rank": 13,
       "word": "专家辟谣“一瓶饮料快速解酒”",
-      "hot_value": 8901427,
+      "hot_value": 8986632,
       "label": "谣言",
       "event_time": 1770343218
     },
     {
       "rank": 14,
       "word": "A股",
-      "hot_value": 8849433,
+      "hot_value": 8910425,
       "label": "",
       "event_time": 1770341995
     },
     {
       "rank": 15,
       "word": "我的刀盾",
-      "hot_value": 8752666,
+      "hot_value": 8895727,
       "label": "娱乐",
       "event_time": 1770303224
     },
     {
       "rank": 16,
       "word": "湖人终结76人5连胜",
-      "hot_value": 8672992,
+      "hot_value": 8817497,
       "label": "新",
       "event_time": 1770355833
     },
     {
       "rank": 17,
       "word": "李佩仪目睹闺蜜自杀",
-      "hot_value": 8663369,
+      "hot_value": 8659159,
       "label": "游戏",
       "event_time": 1770294188
     },
     {
       "rank": 18,
-      "word": "中方回应长和集团将发起国际仲裁",
-      "hot_value": 8653169,
+      "word": "媒体：立陶宛嘴上认错还不够",
+      "hot_value": 8478602,
       "label": "",
-      "event_time": 1770278506
+      "event_time": 1770333533
     },
     {
       "rank": 19,
       "word": "外交部回应普京计划访华",
-      "hot_value": 8528812,
+      "hot_value": 8168378,
       "label": "",
       "event_time": 1770277226
     },
     {
       "rank": 20,
       "word": "网剧成何体统开播",
-      "hot_value": 7883271,
+      "hot_value": 7985915,
       "label": "热议",
       "event_time": 1770349425
     }
   ],
-  "update_time": "2026-02-06 06:42:04",
+  "update_time": "2026-02-06 07:40:34",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false

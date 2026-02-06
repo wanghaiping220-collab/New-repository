@@ -3,145 +3,145 @@
     {
       "rank": 1,
       "word": "预制菜国标开始公开征求意见",
-      "hot_value": 12486829,
-      "label": "新",
+      "hot_value": 12469242,
+      "label": "",
       "event_time": 1770365028
     },
     {
       "rank": 2,
       "word": "伊美谈判在阿曼开始举行",
-      "hot_value": 11527051,
-      "label": "新",
+      "hot_value": 11558846,
+      "label": "",
       "event_time": 1770364131
     },
     {
       "rank": 3,
       "word": "看中国消费市场要用新眼光",
-      "hot_value": 11348116,
+      "hot_value": 11348868,
       "label": "",
       "event_time": 1770367674
     },
     {
       "rank": 4,
       "word": "四类食品不属于预制菜",
-      "hot_value": 11200898,
-      "label": "新",
+      "hot_value": 11124089,
+      "label": "",
       "event_time": 1770365450
     },
     {
       "rank": 5,
-      "word": "董亦军被追授时代楷模称号",
-      "hot_value": 10562788,
-      "label": "爆",
-      "event_time": 1770338784
-    },
-    {
-      "rank": 6,
       "word": "俄美乌第二轮三方会谈结束",
-      "hot_value": 10514902,
+      "hot_value": 10560340,
       "label": "",
       "event_time": 1770336738
     },
     {
+      "rank": 6,
+      "word": "董亦军被追授时代楷模称号",
+      "hot_value": 10491053,
+      "label": "",
+      "event_time": 1770338784
+    },
+    {
       "rank": 7,
       "word": "抖音ACG新春会年味拉满",
-      "hot_value": 9298353,
-      "label": "新",
+      "hot_value": 9349858,
+      "label": "",
       "event_time": 1770353342
     },
     {
       "rank": 8,
       "word": "橘时到吉时到",
-      "hot_value": 9202551,
+      "hot_value": 9257137,
       "label": "",
       "event_time": 1770348579
     },
     {
       "rank": 9,
+      "word": "大家是在长城上早读吗",
+      "hot_value": 9170321,
+      "label": "新",
+      "event_time": 1770360863
+    },
+    {
+      "rank": 10,
       "word": "一年一度空气炸锅加班大赛",
-      "hot_value": 9184711,
+      "hot_value": 9166603,
       "label": "",
       "event_time": 1770348697
     },
     {
-      "rank": 10,
-      "word": "这届精选创作者宠粉太全面了",
-      "hot_value": 9166592,
-      "label": "",
-      "event_time": 1770299987
-    },
-    {
       "rank": 11,
       "word": "网信部门对快手平台依法作出处罚",
-      "hot_value": 9159603,
+      "hot_value": 9165447,
       "label": "新",
       "event_time": 1770368922
     },
     {
       "rank": 12,
       "word": "湖人终结76人5连胜",
-      "hot_value": 9115639,
+      "hot_value": 9157634,
       "label": "爆",
       "event_time": 1770355833
     },
     {
       "rank": 13,
       "word": "专家辟谣“一瓶饮料快速解酒”",
-      "hot_value": 9094304,
+      "hot_value": 9137749,
       "label": "谣言",
       "event_time": 1770343218
     },
     {
       "rank": 14,
-      "word": "留子回国过年吃啥都香",
-      "hot_value": 9075016,
-      "label": "",
-      "event_time": 1770350292
+      "word": "勇士逆转太阳",
+      "hot_value": 9114871,
+      "label": "新",
+      "event_time": 1770360366
     },
     {
       "rank": 15,
       "word": "白应苍当庭忏悔视频曝光",
-      "hot_value": 9043911,
+      "hot_value": 9104334,
       "label": "",
       "event_time": 1770347540
     },
     {
       "rank": 16,
-      "word": "勇士逆转太阳",
-      "hot_value": 8991864,
-      "label": "新",
-      "event_time": 1770360366
-    },
-    {
-      "rank": 17,
       "word": "我的刀盾",
-      "hot_value": 8972209,
+      "hot_value": 9038186,
       "label": "娱乐",
       "event_time": 1770303224
     },
     {
-      "rank": 18,
+      "rank": 17,
       "word": "李佩仪目睹闺蜜自杀",
-      "hot_value": 8863281,
+      "hot_value": 8927742,
       "label": "游戏",
       "event_time": 1770294188
     },
     {
-      "rank": 19,
-      "word": "冬日跑步装备大赏",
-      "hot_value": 8821564,
+      "rank": 18,
+      "word": "这届精选创作者宠粉太全面了",
+      "hot_value": 8918834,
       "label": "",
-      "event_time": 1770283245
+      "event_time": 1770299987
+    },
+    {
+      "rank": 19,
+      "word": "留子回国过年吃啥都香",
+      "hot_value": 8677562,
+      "label": "",
+      "event_time": 1770350292
     },
     {
       "rank": 20,
       "word": "网剧成何体统开播",
-      "hot_value": 8588863,
+      "hot_value": 8524827,
       "label": "热议",
       "event_time": 1770349425
     }
   ],
-  "update_time": "2026-02-06 09:34:53",
+  "update_time": "2026-02-06 10:31:22",
   "source": "抖音热榜",
   "category": "all",
   "is_test_data": false
